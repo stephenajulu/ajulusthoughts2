@@ -1,12 +1,12 @@
 baseURL: "https://thenoesis12.netlify.app"
 languageCode: "en-us"
-title: "Hugo Novela"
+title: "The Noesis"
 pygmentsstyle: 'monokai'
 paginate: 6
 social:
-  twitter: "#"
+  twitter: "https://twitter.com/thenoesiske"
   github: "#"
-  instagram: "#"
+  instagram: "https://instagram.com/thenoesiske"
   linkedin: "#"
   dribbble: "#"
   youtube: "#"
