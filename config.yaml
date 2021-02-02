@@ -14,6 +14,7 @@ social:
 params:
   description: "A Tech and Science Oasis"
   images: "images/about.png"
+  hero: "images/about.png"
 taxonomies:
   author: authors
   tag: tags
