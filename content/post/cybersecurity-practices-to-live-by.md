@@ -1,10 +1,11 @@
 ---
 title: Cybersecurity Practices to Live By
+date: 2021-01-30
+hero: "/images/safety-online-training.png"
+excerpt: Here are the Best Cybersecurity Practices!
 authors:
   - Stephen Ajulu
-date: '2021-01-30'
-excerpt: Here are the Best Cybersecurity Practices to Live By in order to safeguard your personal information and give you ease of mind!
-hero: "images/safety-online-training.png"
+
 ---
 1. Keep Personal Information Professional and Limited
 2. Keep Your Privacy Settings On
