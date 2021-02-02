@@ -2,7 +2,7 @@ baseURL: "https://thenoesis12.netlify.app"
 languageCode: "en-us"
 title: "The Noesis"
 pygmentsstyle: 'monokai'
-paginate: 6
+paginate: 10
 social:
   twitter: "https://twitter.com/thenoesiske"
   github: "#"

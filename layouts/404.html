@@ -1,0 +1,12 @@
+{{ define "main"}}
+    <main id="main">
+    <meta http-equiv="refresh" content="30; URL='/'" />
+      <div>
+        <h1 style="text-align: center">Oops, Page not found</h1>
+        <h2 style="text-align: center">
+            <a href="{{ "/" | relURL }}">Go Back Home</a>
+            <a href="{{ "/about" | relURL }}">Aboute</a>
+        </h2>
+      </div>
+    </main>
+{{ end }}
