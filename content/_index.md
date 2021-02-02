@@ -1,7 +1,8 @@
 ---
 hero:
-  heading: Welcome to Novela, the simplest way to start publishing with Hugo.
-  maxWidthPX: 652
+  heading: Let's Take a Journey To Tech and Science World!
+  maxWidthPX: "652"
 seo:
-  image: /images/hero-2.jpg
+  image: "/images/hero-2.jpg"
+
 ---
