@@ -12,7 +12,7 @@ social:
   dribbble: "#"
   youtube: "#"
 params:
-  description: "Join us as we explore the tech and science world of mysteries"
+  description: "A Tech and Science Oasis"
   images: "images/about.png"
 taxonomies:
   author: authors
@@ -22,7 +22,3 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-tableOfContents:
-    endLevel: 4
-    ordered: false
-    startLevel: 2
