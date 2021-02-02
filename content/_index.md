@@ -1,6 +1,6 @@
 ---
 hero:
-  heading: Let's Take a Journey To Tech and Science World!
+  heading: More than just tech and science!
   maxWidthPX: "652"
 seo:
   image: "/images/about.png"
