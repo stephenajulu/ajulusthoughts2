@@ -15,3 +15,7 @@ params:
   images: "images/about.png"
 taxonomies:
   author: authors
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
