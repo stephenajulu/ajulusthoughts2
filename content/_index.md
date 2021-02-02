@@ -1,6 +1,6 @@
 ---
 hero:
-  heading: More than just tech and science!
+  heading: More Than Just Tech & Science!
   maxWidthPX: "652"
 seo:
   image: "/images/about.png"
