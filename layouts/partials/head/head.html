@@ -12,4 +12,12 @@
     {{ with .Params.forestry_instant_preview_id }}
       {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
     {{ end -}}
+    {{ "<!-- PWAUpdate Script -->" | safeHTML }}
+  <script type="module">
+   import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+   const el = document.createElement('pwa-update');
+   document.body.appendChild(el);
+</script>
+{{ partial "metaicons.html" . }}
+<link rel="alternate" type="application/rss+xml" href="https://thenoesis12.netlify.app/index.xml" title="{{ .Site.Title }}">
 </head>

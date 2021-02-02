@@ -10,5 +10,9 @@ social:
   linkedin: "#"
   dribbble: "#"
   youtube: "#"
+params:
+  description: Join us as we explore the tech and science world of mysteries
+  images:
+  - images/about.png
 taxonomies:
   author: authors
