@@ -1,10 +1,7 @@
 ---
 title: Stephen Ajulu
 bio: |
-    Stephen is an I.T consultant, web developer and graphic designer with over 5 years experience. 
-  He is also a content creator and the editor in chief of The Noesis Ke.
-  Want him to take a look at a product, service or tool?
-  Then Email Him→ alunje73@gmail.com
+    Stephen is an I.T consultant, web developer and graphic design with over 5 years in experience. He is also a content creator and the editor in chief of The Noesis Ke. Want him to take a look at a product, service or tool? Then Email Him→ alunje73@gmail.com
 avatar: /images/stephen-ajulu.jpg
 featured: false
 social:
