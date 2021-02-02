@@ -1,6 +1,6 @@
 ---
 hero:
-  heading: Let's Take a Journey To The Tech & Science Space!
+  heading: An Oasis of Tech & Science
   maxWidthPX: "652"
 seo:
   image: "/images/about.png"
