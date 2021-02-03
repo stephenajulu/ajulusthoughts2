@@ -57,7 +57,7 @@ time {
 
 <article class="mini-card module module-article article" id="mini-post">
     <h5 style="color:#d3d3d3;">↙Featured↘</h5>
-    {{ range first 1 .Site.Taxonomies.tags.featured }}
+    {{ range first 3 .Site.Taxonomies.tags.featured }}
     <header class="mini-article-card-header"><div class="mini-article-card-title"><div class="mini-article-subhead">
 <h2><a href="{{ .RelPermalink }}" class="article-card-header read-article">{{ .Title }} </a></h2>
 <time datetime="2019-06-24">{{ .Date.Format "January 2, 2006" }} • {{ .ReadingTime }} min read</time>
