@@ -4,7 +4,7 @@
     <div class="footer-spacer"></div>
     <div class="next-articles-grid">
         <div class="post-row">
-            {{ $related := .Site.RegularPages.Related . | first 2 }}
+            {{ $related := .Site.Pages.Related . | first 2 }}
 {{ with $related }}
                 <a href="{{ .Params.RelPermalink }}" class="article-link">
                     <div>
