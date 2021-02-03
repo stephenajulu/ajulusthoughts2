@@ -2,7 +2,7 @@
 <section id="articleNext" class="section nartrow">
     <h3 class="footer-next-heading">Related articles from {{ .Site.Title }}</h3>
     <div class="footer-spacer"></div>
-    <div class="next-articles-grid" numberOfArticles={numberOfArticles}>
+    <div class="next-articles-grid">
         <div class="post-row">
             {{ range first 2 .Site.RegularPages.Related }}
                 <a href="{{ .RelPermalink }}" class="article-link">
