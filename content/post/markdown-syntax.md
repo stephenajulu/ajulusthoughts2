@@ -3,7 +3,7 @@ title: Markdown Syntax Guide
 date: 2019-03-11
 hero: "/images/hero-2.jpg"
 excerpt: Sample article showcasing basic Markdown syntax and formatting for HTML elements.
-tags: ['featured']
+tags: ['getting started']
 authors:
   - Admin
 
