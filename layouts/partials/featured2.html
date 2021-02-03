@@ -160,9 +160,7 @@ time {
     
     {{- range ( where site.RegularPages "Section" "blog" | first 3 ) }}
 <article class="mini-card module module-article article" id="mini-post>
-<header class="mini-article-card-header">
-<div class="mini-article-card-title">
-<div class="mini-article-subhead">
+<header class="mini-article-card-header"><div class="mini-article-card-title"><div class="mini-article-subhead">
 Article
 <time datetime="2019-06-24">
 {{ .Date.Format "January 2, 2006" }} • {{ .ReadingTime }} min read</time>
