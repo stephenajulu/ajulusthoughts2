@@ -22,7 +22,7 @@ body {
 }
 
 .mini-card {
-    min-width: 90px;
+    min-width: 400px;
     min-height: 150px;
     padding: 1.5rem;
     border-radius: 16px;
@@ -57,6 +57,7 @@ time {
 {{ range first 1 .Site.Taxonomies.tags.featured }}
 <article class="mini-card module module-article article" id="mini-post">
     <h5 style="color:#d3d3d3;">↙Featured↘</h5>
+    <hr>
     <header class="mini-article-card-header"><div class="mini-article-card-title"><div class="mini-article-subhead">
 <h2><a href="{{ .RelPermalink }}" class="article-card-header read-article">{{ .Title }} </a></h2>
 <time datetime="2019-06-24">{{ .Date.Format "January 2, 2006" }} • {{ .ReadingTime }} min read</time>
