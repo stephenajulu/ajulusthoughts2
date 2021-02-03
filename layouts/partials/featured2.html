@@ -51,21 +51,12 @@ time {
     color: #7a7a8c;
 }
 
-
-
-
-
-
-
-
-
-
-
 </style>
 
 <div class="mini-card-grid aligncenter">
 {{ range first 1 .Site.Taxonomies.tags.featured }}
 <article class="mini-card module module-article article" id="mini-post">
+    <span>Featured</span>
     <header class="mini-article-card-header"><div class="mini-article-card-title"><div class="mini-article-subhead">
 <h2><a href="{{ .RelPermalink }}" class="article-card-header read-article">{{ .Title }} </a></h2>
 <time datetime="2019-06-24">{{ .Date.Format "January 2, 2006" }} • {{ .ReadingTime }} min read</time>
