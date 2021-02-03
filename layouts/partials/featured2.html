@@ -158,7 +158,7 @@ time {
 
 <div class="mini-card-grid">
     
-    {{ range .RegularPages }}
+    {{ range first 3 .Site.Taxonomies.tags.featured }}
 <article class="mini-card module module-article article" id="mini-post">
 <header class="mini-article-card-header"><div class="mini-article-card-title"><div class="mini-article-subhead">
 Article
