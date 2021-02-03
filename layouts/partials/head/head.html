@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     {{ $prism := resources.Get "css/prism.css" }}
     <link rel="stylesheet" href="{{ $prism.RelPermalink }}" />
-    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">-->
     {{ partial "seo/print.html" . }}
     {{ with .Params.forestry_instant_preview_id }}
       {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
@@ -19,6 +20,6 @@
    document.body.appendChild(el);
 </script>
 {{ partial "metaicons.html" . }}
-<link rel="alternate" type="application/rss+xml" href="https://thenoesis12.netlify.app/index.xml" title="{{ .Site.Title }}">
-<link rel="icon" href="/images/favicon.png">
+<link rel="alternate" type="application/rss+xml" href="https://thenoesis13.netlify.app/index.xml" title="{{ .Site.Title }}">
+<!--<link rel="icon" href="/images/favicon.png">-->
 </head>
