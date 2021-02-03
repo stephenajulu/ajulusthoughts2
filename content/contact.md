@@ -8,7 +8,8 @@ Would you like to contact us?
 
 Feel free to fill in the details below and send us a message and we'll on our way to reply.
 
-{{% disclaimer "Note" %}}
+
+### Note:
 
 SPAM will be deleted.
 
@@ -17,8 +18,6 @@ Kindly don't submit confidential tips here rather use our secure means listed he
 To sign up as an advertiser, use [Advertise Here Page](/advertise-here)
 
 Check our [Code of Conduct](/code-of-conduct) to see what will be accepted and what will be rejected before contacting us.
-
-{{% disclaimer %}}
 
 
 <form class="form-horizontal" data-netlify="true">
