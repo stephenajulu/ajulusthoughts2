@@ -1,0 +1,475 @@
+<style>
+
+.mini-card-grid {
+    scrollbar-color: #201c29;
+    scrollbar-width: 10px;
+    scrollbar-gutter: always;
+    padding: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-overflow-scrolling: touch;
+}
+body {
+  background: #100E17;
+
+  color:white;
+  font-family: 'Overpass', sans-serif;
+}
+
+.mini-card {
+    min-width: 300px;
+    min-height: 350px;
+    padding: 1.5rem;
+    border-radius: 16px;
+    background: #17141d;
+    -webkit-box-shadow: -1rem 0 3rem #000;
+    box-shadow: -1rem 0 3rem #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-transition: .2s;
+    transition: .2s;
+    margin: 0;
+}
+.mini-article-card-header {
+    margin-bottom: auto;
+}
+.mini-article-meta {
+    font-size: 14px;
+}
+.mini-card:focus-within, .mini-card:hover {
+    -webkit-transform: translate(0,-1rem);
+    transform: translate(0,-1rem);
+}
+.mini-card:focus-within~.mini-card, .mini-card:hover~.mini-card {
+    -webkit-transform: translateX(130px);
+    transform: translateX(130px);
+}
+.mini-card:not(:first-child) {
+    margin-left: -130px;
+}
+
+
+
+
+
+
+
+
+
+.mini-article-byline {
+    margin: 3rem 0 0;
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.tags {
+    margin: 1rem 0 2rem;
+    padding: .5rem 0 1rem;
+    line-height: 1.8;
+}
+a:not(.button):not(.commentPreviewButton):not(.comment-reply-link):focus, a:not(.button):not(.commentPreviewButton):not(.comment-reply-link):hover {
+    background: -webkit-gradient(linear,left top,right top,from(#ff8a00),to(#da1b60));
+    background: linear-gradient(to right,#ff8a00,#da1b60);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: none;
+}
+.mini-card h2 {
+    font-size: 20px;
+    margin: .25rem 0 auto;
+}
+a {
+    color: #fff;
+  text-decoration:none;
+}
+.mini-article-card-header {
+    margin-bottom: auto;
+}
+.mini-article-meta .author-avatar img {
+    width: 40px;
+    height: 40px;
+}
+.author-avatar img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 12px 10px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.mini-article-meta .author-avatar .half-circle {
+    width: 60px;
+    height: 48px;
+}
+.mini-article-byline .author-avatar, .mini-article-byline .author-name-area {
+    grid-area: auto;
+}
+.author-avatar {
+    grid-area: avatar;
+    -ms-flex-item-align: start;
+    align-self: start;
+    position: relative;
+}
+.author-avatar .half-circle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 56px;
+    fill: none;
+    stroke: url(#orange-to-pink);
+    stroke-width: 8;
+    stroke-linecap: round;
+    pointer-events: none;
+}
+.mini-article-subhead {
+    font-size: 14px;
+  color:White;
+    margin: 0 0 1rem;
+}
+time {
+    color: #7a7a8c;
+}
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+<link href="https://fonts.googleapis.com/css?family=Overpass:100,100i,200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+<div class="mini-card-grid">
+<article class="mini-card module module-article article" id="mini-post-291626">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2019-06-24">
+Jun 24, 2019 </time>
+ </div>
+<h2 class="">
+<a href="https://css-tricks.com/building-a-conference-schedule-with-css-grid/" class="article-card-header read-article">
+Building a Conference Schedule with CSS Grid </a>
+</h2>
+</div>
+</header>
+<div class="mini-article-meta">
+<div class="mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/mrwweb/">
+<img alt="" src="https://secure.gravatar.com/avatar/1d4925cfe7b4025037be5038af7d4292?s=80&amp;d=retro&amp;r=pg" srcset="https://secure.gravatar.com/avatar/1d4925cfe7b4025037be5038af7d4292?s=160&amp;d=retro&amp;r=pg 2x" class="avatar avatar-80 photo" height="80" width="80"> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/mrwweb/">
+Mark Root-Wiley </a>
+</div>
+</div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/css-grid/" rel="tag">css grid</a> </div>
+</div>
+</article>
+<article class="mini-card module module-article article" id="mini-post-288859">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2019-06-11">
+Jun 11, 2019 </time>
+</div>
+<h2 class="">
+<a href="https://css-tricks.com/everything-you-need-to-know-about-date-in-javascript/" class="article-card-header read-article">
+Everything You Need to Know About Date in JavaScript </a>
+</h2>
+</div>
+</header>
+<div class="mini-article-meta">
+<div class="mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/zellwk/">
+<img alt="" src="https://secure.gravatar.com/avatar/00eedd7282eab774e300918f9e32558b?s=80&amp;d=retro&amp;r=pg" srcset="https://secure.gravatar.com/avatar/00eedd7282eab774e300918f9e32558b?s=160&amp;d=retro&amp;r=pg 2x" class="avatar avatar-80 photo" height="80" width="80"> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/zellwk/">
+Zell Liew </a>
+</div>
+</div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/javascript/" rel="tag">JavaScript</a> </div>
+</div>
+</article>
+<article class="mini-card module module-article article" id="mini-post-288941">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2019-06-13">
+Jun 13, 2019 </time>
+</div>
+<h2 class="">
+<a href="https://css-tricks.com/drawing-realistic-clouds-with-svg-and-css/" class="article-card-header read-article">
+Drawing Realistic Clouds with SVG and CSS </a>
+</h2>
+</div>
+</header>
+<div class="mini-article-meta">
+<div class="mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/beau-js/">
+<img alt="" src="https://secure.gravatar.com/avatar/fb5ad87fab259b3f11dfa74337c3d218?s=80&amp;d=retro&amp;r=pg" srcset="https://secure.gravatar.com/avatar/fb5ad87fab259b3f11dfa74337c3d218?s=160&amp;d=retro&amp;r=pg 2x" class="avatar avatar-80 photo" height="80" width="80"> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/beau-js/">
+Beau Jackson </a>
+</div>
+</div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/box-shadow/" rel="tag">box-shadow</a> <a href="https://css-tricks.com/tag/svg-filters/" rel="tag">svg filters</a> </div>
+</div>
+</article>
+<article class="mini-card module module-article article" id="mini-post-289070">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2019-06-18">
+Jun 18, 2019 </time>
+</div>
+<h2 class="">
+<a href="https://css-tricks.com/how-to-section-your-html/" class="article-card-header read-article">
+How to Section Your HTML </a>
+</h2>
+</div>
+</header>
+<div class="mini-article-meta">
+<div class="mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/daniel-tonon-503/">
+<img alt="" src="https://secure.gravatar.com/avatar/0bb885dc67864a9a91cd123b97968d4c?s=80&amp;d=retro&amp;r=pg" srcset="https://secure.gravatar.com/avatar/0bb885dc67864a9a91cd123b97968d4c?s=160&amp;d=retro&amp;r=pg 2x" class="avatar avatar-80 photo" height="80" width="80"> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/daniel-tonon-503/">
+Daniel Tonon </a>
+</div>
+</div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/accessibility/" rel="tag">accessibility</a> <a href="https://css-tricks.com/tag/document-outline/" rel="tag">document outline</a> <a href="https://css-tricks.com/tag/screen-readers/" rel="tag">screen readers</a> <a href="https://css-tricks.com/tag/semantics/" rel="tag">semantics</a> </div>
+</div>
+</article>
+<article class="mini-card module module-article article" id="mini-post-287494">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2019-05-15">
+May 15, 2019 </time>
+</div>
+<h2 class="">
+<a href="https://css-tricks.com/a-deep-dive-into-native-lazy-loading-for-images-and-frames/" class="article-card-header read-article">
+A Deep Dive into Native Lazy-Loading for Images and Frames </a>
+</h2>
+</div>
+</header>
+<div class="mini-article-meta">
+<div class="mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/erkstruwe/">
+<img alt="" src="https://secure.gravatar.com/avatar/641094be7f3582a4d4dcbc63e5e64a3b?s=80&amp;d=retro&amp;r=pg" srcset="https://secure.gravatar.com/avatar/641094be7f3582a4d4dcbc63e5e64a3b?s=160&amp;d=retro&amp;r=pg 2x" class="avatar avatar-80 photo" height="80" width="80"> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/erkstruwe/">
+Erk Struwe </a>
+</div>
+</div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/chrome/" rel="tag">chrome</a> <a href="https://css-tricks.com/tag/lazy-loading/" rel="tag">lazy loading</a> <a href="https://css-tricks.com/tag/performance/" rel="tag">performance</a> </div>
+</div>
+</article>
+<article class="mini-card module module-article article" id="mini-post-288467">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2019-06-05">
+Jun 5, 2019 </time>
+</div>
+<h2 class="">
+<a href="https://css-tricks.com/jamstack-more-like-shamstack/" class="article-card-header read-article">
+JAMstack? More like SHAMstack. </a>
+</h2>
+</div>
+</header>
+<div class="mini-article-meta">
+<div class="mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/chriscoyier/">
+<img alt="" src="https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=80&amp;d=retro&amp;r=pg" srcset="https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=160&amp;d=retro&amp;r=pg 2x" class="avatar avatar-80 photo" height="80" width="80"> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/chriscoyier/">
+Chris Coyier </a>
+</div>
+</div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/jamstack/" rel="tag">jamstack</a> </div>
+</div>
+</article>
+<article class="mini-card module module-article article" id="mini-post-288101">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2019-05-23">
+May 23, 2019 </time>
+</div>
+<h2 class="">
+<a href="https://css-tricks.com/the-power-of-serverless-v2-0-now-an-open-source-gatsby-site-hosted-on-netlify/" class="article-card-header read-article">
+The Power of Serverless v2.0! (Now an Open-Source Gatsby Site Hosted on Netlify) </a>
+</h2>
+</div>
+</header>
+<div class="mini-article-meta">
+<div class="mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/chriscoyier/">
+<img alt="" src="https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=80&amp;d=retro&amp;r=pg" srcset="https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=160&amp;d=retro&amp;r=pg 2x" class="avatar avatar-80 photo" height="80" width="80"> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/chriscoyier/">
+Chris Coyier </a>
+</div>
+</div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/jamstack/" rel="tag">jamstack</a> <a href="https://css-tricks.com/tag/netlify/" rel="tag">netlify</a> <a href="https://css-tricks.com/tag/serverless/" rel="tag">serverless</a> <a href="https://css-tricks.com/tag/static-sites/" rel="tag">static sites</a> </div>
+</div>
+</article>
+<article class="mini-card module module-article article" id="mini-post-280085">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2019-01-21">
+Jan 21, 2019 </time>
+</div>
+<h2 class="">
+<a href="https://css-tricks.com/the-great-divide/" class="article-card-header read-article">
+The Great Divide </a>
+</h2>
+</div>
+</header>
+<div class="mini-article-meta">
+<div class="mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/chriscoyier/">
+<img alt="" src="https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=80&amp;d=retro&amp;r=pg" srcset="https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=160&amp;d=retro&amp;r=pg 2x" class="avatar avatar-80 photo" height="80" width="80"> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/chriscoyier/">
+Chris Coyier </a>
+</div>
+</div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/front-end-developer/" rel="tag">front-end developer</a> </div>
+</div>
+</article>
+<article class="mini-card module module-article article" id="mini-post-284850">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2019-05-27">
+May 27, 2019 </time>
+</div>
+<h2 class="">
+<a href="https://css-tricks.com/prioritizing/" class="article-card-header read-article">
+Prioritizing </a>
+</h2>
+</div>
+</header>
+<div class="mini-article-meta">
+<div class="mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/sdrasner/">
+<img alt="" src="https://secure.gravatar.com/avatar/48cfd8342f9b9e5b7970f63afb0a8ee3?s=80&amp;d=retro&amp;r=pg" srcset="https://secure.gravatar.com/avatar/48cfd8342f9b9e5b7970f63afb0a8ee3?s=160&amp;d=retro&amp;r=pg 2x" class="avatar avatar-80 photo" height="80" width="80"> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/sdrasner/">
+Sarah Drasner </a>
+</div>
+</div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/tasks/" rel="tag">tasks</a> <a href="https://css-tricks.com/tag/to-do-lists/" rel="tag">to do lists</a> <a href="https://css-tricks.com/tag/values/" rel="tag">values</a> </div>
+</div>
+</article>
+</div>
