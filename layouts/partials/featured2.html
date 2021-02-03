@@ -36,6 +36,7 @@ body {
     -webkit-transition: .2s;
     transition: .2s;
     margin: 0;
+    float: center;
 }
 .mini-article-card-header {
     margin-bottom: auto;
@@ -154,24 +155,13 @@ time {
 
 </style>
 
-<link href="https://fonts.googleapis.com/css?family=Overpass:100,100i,200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
-
-<div class="mini-card-grid">
-    
-    {{ range first 3 .Site.Taxonomies.tags.featured }}
+<div class="mini-card-grid aligncenter">
+{{ range first 3 .Site.Taxonomies.tags.featured }}
 <article class="mini-card module module-article article" id="mini-post">
-<header class="mini-article-card-header"><div class="mini-article-card-title"><div class="mini-article-subhead">
-Article
-<time datetime="2019-06-24">
-{{ .Date.Format "January 2, 2006" }} • {{ .ReadingTime }} min read</time>
- </div>
-<h2 class="">
-<a href="{{ .RelPermalink }}" class="article-card-header read-article">
-{{ .Title }} </a>
-</h2>
-</div>
-</header>
+    <header class="mini-article-card-header"><div class="mini-article-card-title"><div class="mini-article-subhead">
+<h2><a href="{{ .RelPermalink }}" class="article-card-header read-article">{{ .Title }} </a></h2>
+<time datetime="2019-06-24">{{ .Date.Format "January 2, 2006" }} • {{ .ReadingTime }} min read</time>
+        </div>
 </article>
-    {{ end }}
-    
+    {{ end }} 
 </div>
