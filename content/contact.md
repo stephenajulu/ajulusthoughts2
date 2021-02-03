@@ -22,10 +22,10 @@ Check our [Code of Conduct](/code-of-conduct) to see what will be accepted and w
 <section id="subscriptionSection" class="section narrow">
   <div class="subscription-container">
         <div class="subscription-content">
-<form id="subscriptionForm" class="subscription-form" data-netlify="true">
+<form class="form-horizontal" data-netlify="true">
 <fieldset>
 <!-- Form Name -->
-<legend class="subscription-heading">Contact Us</legend>
+<legend>Contact Us</legend>
 <!-- Text input-->
 <div class="form-group">
   <label class="col-md-4 control-label" for="name">What's your name/company name?</label>  
@@ -37,7 +37,7 @@ Check our [Code of Conduct](/code-of-conduct) to see what will be accepted and w
 <div class="form-group">
   <label class="col-md-4 control-label" for="email">What's your email?</label>  
   <div class="col-md-4">
-  <input id="emailInput" class="subscription-input" name="email" type="text" placeholder="e.g johndoe@gmail.com" class="form-control input-md" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$" required>
+  <input id="email" name="email" type="text" placeholder="e.g johndoe@gmail.com" class="form-control input-md" required="">
   </div>
 </div>
 <!-- Multiple Radios -->
@@ -49,67 +49,67 @@ Check our [Code of Conduct](/code-of-conduct) to see what will be accepted and w
       <input type="radio" name="purpose" id="purpose-0" value="1" checked="checked">
       Advertise/Become a Sponsor🤝
     </label>
-	</div>
+  </div>
   <div class="radio">
     <label for="purpose-1">
       <input type="radio" name="purpose" id="purpose-1" value="2">
       Become an author 😎
     </label>
-	</div>
+  </div>
   <div class="radio">
     <label for="purpose-2">
       <input type="radio" name="purpose" id="purpose-2" value="3">
       Voice an opinion 🗣
     </label>
-	</div>
+  </div>
   <div class="radio">
     <label for="purpose-3">
       <input type="radio" name="purpose" id="purpose-3" value="4">
       Inquire about oour services 💼
     </label>
-	</div>
+  </div>
   <div class="radio">
     <label for="purpose-4">
       <input type="radio" name="purpose" id="purpose-4" value="5">
       Feature us(Hooray! 🎉)
     </label>
-	</div>
+  </div>
   <div class="radio">
     <label for="purpose-5">
       <input type="radio" name="purpose" id="purpose-5" value="6">
       Report an issue/bug 🙁🐛
     </label>
-	</div>
+  </div>
   <div class="radio">
     <label for="purpose-6">
       <input type="radio" name="purpose" id="purpose-6" value="7">
       Request coverage on a topic 🤩
     </label>
-	</div>
+  </div>
   <div class="radio">
     <label for="purpose-7">
       <input type="radio" name="purpose" id="purpose-7" value="8">
       Copyright and Legal 👮‍♂️
     </label>
-	</div>
+  </div>
   <div class="radio">
     <label for="purpose-8">
       <input type="radio" name="purpose" id="purpose-8" value="9">
       Just saying hi 👋
     </label>
-	</div>
+  </div>
   <div class="radio">
     <label for="purpose-9">
       <input type="radio" name="purpose" id="purpose-9" value="10">
       Join Our Newsletter 📨
     </label>
-	</div>
+  </div>
   <div class="radio">
     <label for="purpose-10">
       <input type="radio" name="purpose" id="purpose-10" value="11">
       Other 😃
     </label>
-	</div>
+  </div>
   </div>
 </div>
 <!-- Textarea -->
@@ -123,14 +123,12 @@ Check our [Code of Conduct](/code-of-conduct) to see what will be accepted and w
 <div class="form-group">
   <label class="col-md-4 control-label" for="submit"></label>
   <div class="col-md-4">
-    <button id="submit submitButton" name="submit" class="btn btn-primary submit-button">Send The Message</button>
+    <button id="submit" name="submit" class="btn btn-primary">Send The Message</button>
   </div>
-  <div class="subscription-error-message">
-                    The email you entered is not valid.
-                </div>
 </div>
 </fieldset>
 </form>
+
 </div>
 </div>
 </section>
