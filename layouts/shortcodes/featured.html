@@ -1,0 +1,237 @@
+<style>
+
+html,
+body {
+  background: #252833;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  * {
+    box-sizing: border-box;
+  }
+}
+
+.cards {
+  width: calc(100% - 2em);
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+    grid-template-areas:
+      "a a b c"
+      "a a d d";
+    width: 80%;
+}
+
+.card {
+  width: 100%;
+  position: relative;
+  transition: all 0.25s ease;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &:before {
+    height: 0;
+    content: "";
+    display: block;
+    padding-bottom: 47.36%;
+  }
+  &.content {
+    &:after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 50%;
+      content: "";
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
+    }
+  }
+  &:nth-child(1) {
+    grid-area: a;
+  }
+  &:nth-child(2) {
+    grid-area: b;
+  }
+  &:nth-child(3) {
+    grid-area: c;
+  }
+  &:nth-child(4) {
+    grid-area: d;
+  }
+  &-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &-label {
+    position: absolute;
+    top: .45rem;
+    left: .45rem;
+    background: #089f8a;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.7em;
+    color: white;
+    padding: 0.5em;
+  }
+  &-title {
+    position: absolute;
+    left: 1em;
+    bottom: 1em;
+    color: #d6dbeb;
+    z-index: 5;
+    font-size: 0.8em;
+  }
+  &.form {
+    position: relative;
+    &:before {
+      background: linear-gradient(
+        60deg,
+        #f79533,
+        #f37055,
+        #ef4e7b,
+        #a166ab,
+        #5073b8,
+        #1098ad,
+        #07b39b,
+        #6fba82
+      );
+    }
+    &:after {
+      position: absolute;
+      top: .5em;
+      left: .5em;
+      width: calc(100% - 1em);
+      height: calc(100% - 1em);
+      content: "";
+      background: #252833;
+    }
+    .form-title {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      font-size: 7vw;
+      font-weight: 900;
+      z-index: 5;
+      text-transform: uppercase;
+      background: linear-gradient(
+        60deg,
+        #f79533,
+        #f37055,
+        #ef4e7b,
+        #a166ab,
+        #5073b8,
+        #1098ad,
+        #07b39b,
+        #6fba82
+      );
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      &:before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        content: "Sign Up";
+        opacity: 0.5;
+        filter: blur(10px);
+        transition: all .25s ease;
+        z-index: 2;
+        background: linear-gradient(
+          60deg,
+          #f79533,
+          #f37055,
+          #ef4e7b,
+          #a166ab,
+          #5073b8,
+          #1098ad,
+          #07b39b,
+          #6fba82
+        );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        transform: translateX(-50%) translateY(-50%);
+      }
+    }
+  }
+  &:nth-child(2) {
+    .card-label {
+      background: #ef4e7b;
+    }
+  }
+  &:nth-child(3) {
+    .card-label {
+      background: #1098ad;
+    }
+  }
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.35);
+    .form-title {
+      &:before {
+        filter: blur(3px);
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+</style>
+
+
+{{ range first 1 .Site.Taxonomies.tags.featured }}
+<div class="cards">
+  <div class="card content">
+    <div class="card-content">
+      <div class="card-img"><img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}"></div>
+      <div class="card-label">{{ .Params.Categories }}</div>
+      <div class="card-title">{{ .Title }}</div>
+    </div>
+  </div>
+  {{ end }}
+  
+  {{ range first 1 .Site.Taxonomies.tags.news }}
+  <div class="card content">
+    <div class="card-content">
+      <div class="card-img"><img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}"></div>
+      <div class="card-label">{{ .Params.Categories }}</div>
+      <div class="card-title">{{ .Title }}</div>
+    </div>
+  </div>
+  {{ end }}
+  
+  {{ range first 1 .Site.Taxonomies.tags.featured }}
+  <div class="card content">
+    <div class="card-content">
+      <div class="card-img"><img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}"></div>
+      <div class="card-label">{{ .Params.Categories }}</div>
+      <div class="card-title">{{ .Title }}</div>
+    </div>
+  </div>
+  {{ end }}
+  
+  <div class="card form">
+    <a href="/newsletter"><div class="form-title">Sign Up</div></a>
+  </div>
+</div>

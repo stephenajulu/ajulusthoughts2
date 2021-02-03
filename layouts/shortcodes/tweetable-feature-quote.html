@@ -1,0 +1,5 @@
+span>"{{ .Inner }}"{{ if .Get "hashtags" }}&nbsp;{{ range $index, $hashtags := split (.Get "hashtags") ", " }}{{ if gt $index 0 }}&nbsp;#{{ else }}#{{ end }}{{ . }}{{ end }}{{ end }}
+	<br>
+	<a class="share-on-twitter link-reverse" target="_blank" href="https://twitter.com/intent/tweet?original_referer={{ .Page.Permalink }}&ref_src=twsrc%5Etfw&text=&quot;{{ .Inner }}&quot;{{ if .Get "hashtags" }}&nbsp;{{ range $index, $hashtags := split (.Get "hashtags") ", " }}{{ if gt $index 0 }}{{ htmlUnescape "&nbsp;&#35;" }}{{ else }}{{ htmlUnescape "&#35;" }}{{ end }}{{ . | lower }}{{ end }}%0a%0a{{ end }}&nbsp;{{ if .Get "shortlink" }}https://brian.link/{{ .Get "shortlink" }}{{ else }}{{ .Page.Permalink }}{{ end }}&nbsp;by&nbsp;@bwhli">Share&nbsp;on&nbsp;Twitter&nbsp;&#8594;
+	</a>
+</span>

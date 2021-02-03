@@ -1,0 +1,124 @@
+<div id="container"></div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/89/three.min.js"></script>
+
+      <script id="vertexShader" type="x-shader/x-vertex">
+          void main() {
+              gl_Position = vec4( position, 1.0 );
+          }
+      </script>
+    
+<!--  参考 http://glslsandbox.com/e#64851.4 -->
+      <script id="fragmentShader" type="x-shader/x-fragment">
+    #ifdef GL_ES
+    precision mediump float;
+    #endif
+
+    #extension GL_OES_standard_derivatives : enable
+
+    uniform float time;
+    uniform vec2 mouse;
+    uniform vec2 resolution;
+
+    const float ZOOM = 100.0;
+    const int TIMES = 5;
+    const float SPEED = 10.0;
+        
+      float map(vec2 p) {
+        return length(p) - 0.5;
+      }
+        
+    void main( void ) {
+
+        float dist;
+        vec2 uv = (gl_FragCoord.xy * 2.0 - resolution.xy) / min(resolution.x, resolution.y);
+        float d = dot(uv,uv);
+        float a = atan(uv.y,uv.x);
+            // for(int i = 0; i < TIMES; i++) {
+            //     dist = distance(uv.x, uv.y);
+            //     uv.x = uv.x + sin(uv.y + sin(dist*0.1)) + cos(time/SPEED);
+            //     uv.y = uv.y - cos(uv.x + cos(dist*0.1)) + sin(time/SPEED);
+            // }
+            for(int i = 0; i < TIMES; i++) {
+                dist = map(uv);
+                uv.x = uv.x + sin(uv.y + sin(dist*0.1))*sin(time*0.2)*2.0 + cos(time/SPEED);
+                uv.y = uv.y + cos(uv.x + cos(dist*0.1))*cos(time*0.2)*2.0 + sin(time/SPEED);
+            }
+        uv.x = map(uv);
+         uv.y = map(uv);
+        uv *= d;
+                
+ 
+                
+        float r = step(sin(time*0.1),uv.y); 
+        float g = step(cos(time*0.2),uv.x);
+        float b = step(0.5,uv.x);
+        //         float r = step(sin(time),pow(uv.x,5.0));
+        // float g = step(cos(time),pow(uv.x,5.0));
+        // float b = step(0.5,pow(uv.x,5.0));
+
+        gl_FragColor = vec4(
+          clamp(r,0.1,1.0),
+          clamp(g,0.1,1.0),
+          clamp(b,0.4,1.0), 
+          1.0);
+    }
+
+      </script>
+<script>
+             var container;
+          var camera, scene, renderer;
+          var uniforms;
+
+          init();
+          animate();
+
+          function init() {
+              container = document.getElementById( 'container' );
+
+              camera = new THREE.Camera();
+              camera.position.z = 1;
+
+              scene = new THREE.Scene();
+
+              var geometry = new THREE.PlaneBufferGeometry( 2, 2 );
+
+              uniforms = {
+                  time: { type: "f", value: 1.0 },
+                  resolution: { type: "v2", value: new THREE.Vector2() }
+              };
+
+              var material = new THREE.ShaderMaterial( {
+                  uniforms: uniforms,
+                  vertexShader: document.getElementById( 'vertexShader' ).textContent,
+                  fragmentShader: document.getElementById( 'fragmentShader' ).textContent
+              } );
+
+              var mesh = new THREE.Mesh( geometry, material );
+              scene.add( mesh );
+
+              renderer = new THREE.WebGLRenderer();
+              renderer.setPixelRatio( window.devicePixelRatio );
+
+              container.appendChild( renderer.domElement );
+
+              onWindowResize();
+              window.addEventListener( 'resize', onWindowResize, false );
+
+          }
+
+          function onWindowResize( event ) {
+              renderer.setSize( window.innerWidth, window.innerHeight );
+              uniforms.resolution.value.x = renderer.domElement.width;
+              uniforms.resolution.value.y = renderer.domElement.height;
+          }
+
+          function animate() {
+              requestAnimationFrame( animate );
+              render();
+          }
+
+          function render() {
+              uniforms.time.value += 0.05;
+              renderer.render( scene, camera );
+          } 
+</script>

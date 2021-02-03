@@ -16,6 +16,7 @@ We also accept guest and sponsered posts.
 
 ### MASTHEAD
 * Editor-in-Chief: Stephen Ajulu
+    - Email: [alunje73@pm.me](mailto:alunje73@pm.me)
 * Review Pro: Hannes Kiyago
 
 ## ABOUT *SAOA MEDIA*
