@@ -1,0 +1,149 @@
+<style>
+
+.mini-card-grid {
+    scrollbar-color: #201c29;
+    scrollbar-width: 10px;
+    scrollbar-gutter: always;
+    padding: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-overflow-scrolling: touch;
+}
+}
+.mini-card {
+    min-width: 300px;
+    min-height: 350px;
+    padding: 1.5rem;
+    border-radius: 16px;
+    background: #17141d;
+    -webkit-box-shadow: -1rem 0 3rem #000;
+    box-shadow: -1rem 0 3rem #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-transition: .2s;
+    transition: .2s;
+    margin: 0;
+}
+.mini-article-card-header {
+    margin-bottom: auto;
+}
+.mini-article-meta {
+    font-size: 14px;
+}
+.mini-card:focus-within, .mini-card:hover {
+    -webkit-transform: translate(0,-1rem);
+    transform: translate(0,-1rem);
+}
+.mini-card:focus-within~.mini-card, .mini-card:hover~.mini-card {
+    -webkit-transform: translateX(130px);
+    transform: translateX(130px);
+}
+.mini-card:not(:first-child) {
+    margin-left: -130px;
+}
+.mini-article-byline {
+    margin: 3rem 0 0;
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.tags {
+    margin: 1rem 0 2rem;
+    padding: .5rem 0 1rem;
+    line-height: 1.8;
+}
+a:not(.button):not(.commentPreviewButton):not(.comment-reply-link):focus, a:not(.button):not(.commentPreviewButton):not(.comment-reply-link):hover {
+    background: -webkit-gradient(linear,left top,right top,from(#ff8a00),to(#da1b60));
+    background: linear-gradient(to right,#ff8a00,#da1b60);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: none;
+}
+.mini-card h2 {
+    font-size: 20px;
+    margin: .25rem 0 auto;
+}
+a {
+    color: #fff;
+  text-decoration:none;
+}
+.mini-article-card-header {
+    margin-bottom: auto;
+}
+.mini-article-meta .author-avatar img {
+    width: 40px;
+    height: 40px;
+}
+.author-avatar img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 12px 10px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.mini-article-meta .author-avatar .half-circle {
+    width: 60px;
+    height: 48px;
+}
+.mini-article-byline .author-avatar, .mini-article-byline .author-name-area {
+    grid-area: auto;
+}
+.author-avatar {
+    grid-area: avatar;
+    -ms-flex-item-align: start;
+    align-self: start;
+    position: relative;
+}
+.author-avatar .half-circle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 56px;
+    fill: none;
+    stroke: url(#orange-to-pink);
+    stroke-width: 8;
+    stroke-linecap: round;
+    pointer-events: none;
+}
+.mini-article-subhead {
+    font-size: 14px;
+  color:White;
+    margin: 0 0 1rem;
+}
+time {
+    color: #7a7a8c;
+}
+
+</style>
+
+
+<div class="mini-card-grid">
+<article class="mini-card module module-article article" id="mini-post-291626">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2019-06-24">
+Jun 24, 2019 </time>
+ </div>
+<h2 class="">
+<a href="https://css-tricks.com/building-a-conference-schedule-with-css-grid/" class="article-card-header read-article">
+Building a Conference Schedule with CSS Grid </a>
+</h2>
+</div>
+</header>
+</article>
+</div>
