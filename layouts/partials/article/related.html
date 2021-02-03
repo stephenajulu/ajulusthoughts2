@@ -5,7 +5,7 @@
     <div class="next-articles-grid" numberOfArticles={numberOfArticles}>
         <div class="post-row">
             {{ range first 2 .Site.RegularPages.Related }}
-                <a href="{{ .RelPermalink }}" class="article-link"
+                <a href="{{ .RelPermalink }}" class="article-link">
                     <div>
                         <div class="image-container">
                             <img src="{{ .Params.hero }}" class="article-image" />
