@@ -20,8 +20,6 @@ To sign up as an advertiser, use [Advertise Here Page](/advertise-here)
 Check our [Code of Conduct](/code-of-conduct) to see what will be accepted and what will be rejected before contacting us.
 
 <section id="subscriptionSection" class="section narrow">
-  <div class="subscription-container">
-        <div class="subscription-content">
 <form class="form-horizontal" data-netlify="true">
 <fieldset>
 <!-- Form Name -->
@@ -128,10 +126,4 @@ Check our [Code of Conduct](/code-of-conduct) to see what will be accepted and w
 </div>
 </fieldset>
 </form>
-
-</div>
-</div>
 </section>
-
-{{ $script := resources.Get "js/addFormStyles.js" }}
-<script src="{{ $script.RelPermalink }}"></script>
