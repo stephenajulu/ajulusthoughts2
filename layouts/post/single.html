@@ -8,9 +8,9 @@
 
     <article  id="articleContent" class="post-content" style="position:relative;">
         {{ .Content }}
+        {{ partial "related.html" . }}
         {{ partial "subscribe.html" . }}
         <div align="center"><h5 class="accent">Share On: </h5>{{partial "share.html" .}}</div>
-        {{ partial "related.html" . }}
         {{ partial "commento.html" . }}
     </article>
     {{ partial "article/next.html" . }}
