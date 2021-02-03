@@ -6,7 +6,7 @@
         <div class="post-row">
             {{ $related := .Site.RegularPages.Related . | first 2 }}
 {{ with $related }}
-                <a href="{{ .RelPermalink }}" class="article-link">
+                <a href="{{ .Params.RelPermalink }}" class="article-link">
                     <div>
                         <div class="image-container">
                             <img src="{{ .Params.hero }}" class="article-image" />
