@@ -4,7 +4,7 @@ date: 2021-01-30
 hero: "/images/safety-online-training.png"
 excerpt: Here are the Best Cybersecurity Practices!
 categories: ['tech']
-tags: ['cybersecurity', 'data-security']
+tags: ['cybersecurity', 'data-security', 'featured']
 authors:
   - Stephen Ajulu
 
