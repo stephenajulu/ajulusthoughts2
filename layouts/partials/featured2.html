@@ -61,7 +61,7 @@ time {
 </style>
 
 <div class="mini-card-grid aligncenter">
-{{ range first 3 .Site.Taxonomies.tags.featured }}
+{{ range first 1 .Site.Taxonomies.tags.featured }}
 <article class="mini-card module module-article article" id="mini-post">
     <header class="mini-article-card-header"><div class="mini-article-card-title"><div class="mini-article-subhead">
 <h2><a href="{{ .RelPermalink }}" class="article-card-header read-article">{{ .Title }} </a></h2>
