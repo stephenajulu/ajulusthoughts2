@@ -9,9 +9,10 @@ $desktop_large: 1440px;
 
 body{
     /*FONTS*/
-    --serif: "Merriweather", Georgia, Serif;
-    --sanserif: "SF Pro Display", "-apple-system", "BlinkMacSystemFont", "San Francisco", "Helvetica Neue", "Helvetica", "Ubuntu", "Roboto", "Noto", "Segoe UI", "Arial", sans-serif;
-    --monospace: "Operator Mono", Consolas, Menlo, Monaco, source-code-pro, Courier New, monospace;
+    --serif: "Playfair Display", "Merriweather", Georgia, Serif;
+    --sanserif: "Montserrat", "SF Pro Display", "-apple-system", "BlinkMacSystemFont", "San Francisco", "Helvetica Neue", "Helvetica", "Ubuntu", "Roboto", "Noto", "Segoe UI", "Arial", sans-serif;
+    --monospace: "Space Mono", "Operator Mono", Consolas, Menlo, Monaco, source-code-pro, Courier New, monospace;
+
 
     /*COLOR MODE TRANSITION*/
     --color-mode-transition: background 0.25s var(--ease-in-out-quad), color 0.25s var(--ease-in-out-quad);
