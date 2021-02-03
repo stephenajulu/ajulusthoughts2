@@ -6,11 +6,11 @@ enableEmoji: true
 paginate: 10
 social:
   twitter: "https://twitter.com/thenoesiske"
-  github: "#"
+  github: ""
   instagram: "https://instagram.com/thenoesiske"
-  linkedin: "#"
-  dribbble: "#"
-  youtube: "#"
+  linkedin: ""
+  dribbble: ""
+  youtube: ""
 params:
   description: "A Tech and Science Oasis"
   images: "images/about.png"
