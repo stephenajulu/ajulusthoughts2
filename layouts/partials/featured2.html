@@ -176,7 +176,7 @@ Article
     <p>{{ .Summary }}</p>
                          {{ with .Params.authors }}       
 <div class="author-avatar">
-<a class="author-name" href="{{ .RelPermalink }}">
+<a class="author-name" href="{{ .Params.authors }}">
 <img alt="" src="{{ .Params.avatar | absURL }}" class="avatar avatar-80 photo" height="80" width="80"> </a>
 <svg class="half-circle" width="80px" height="80px">
 <use xlink:href="#half-circle"></use>
