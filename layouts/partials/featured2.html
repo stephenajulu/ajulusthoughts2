@@ -173,7 +173,8 @@ Article
 </header>
 <div class="mini-article-meta">
 <div class="mini-article-byline">
-                         {{ with .Params.avatar }}       
+    <p>{{ .Summary }}</p>
+                         {{ with .Params.authors }}       
 <div class="author-avatar">
 <a class="author-name" href="{{ .RelPermalink }}">
 <img alt="" src="{{ .Params.avatar | absURL }}" class="avatar avatar-80 photo" height="80" width="80"> </a>
@@ -186,7 +187,7 @@ Article
 Author
 </div>
 <a class="author-name" href="{{ .RelPermalink }}">
-{{ .Params.author }} </a>
+{{ .Params.authors }} </a>
 </div>
 </div>
                                                  {{end}}
