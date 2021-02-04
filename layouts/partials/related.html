@@ -1,7 +1,7 @@
 {{ $related := .Site.RegularPages.Related . | first 5 }}
 {{ with $related }}
 <h3>Additional Resources</h3>
-<ul style="list-style-type:circle;">
+<ul>
 	{{ range . }}
 	<li style="color:#CD2653;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
 	{{ end }}
