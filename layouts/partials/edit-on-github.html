@@ -4,7 +4,7 @@
             {{ $.Scratch.Set "FilePath" .File.Path }}
             {{ end }}
             {{ with .Site.Params.GithubEdit}}
-            <a href='{{ . }}{{ $.Scratch.Get "FilePath" }}'>📝</a>
+            <a href='{{ . }}{{ $.Scratch.Get "FilePath" }}' title="Edit This Post on GitHub">📝</a>
             {{ end }}
             {{ end }}
 </span>
