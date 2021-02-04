@@ -1,0 +1,10 @@
+<span>
+        	{{ if .IsPage}} 
+            {{ if .File.Path}}
+            {{ $.Scratch.Set "FilePath" .File.Path }}
+            {{ end }}
+            {{ with .Site.Params.GithubEdit}}
+            <a href='{{ . }}{{ $.Scratch.Get "FilePath" }}'>📝</a>
+            {{ end }}
+            {{ end }}
+</span>
