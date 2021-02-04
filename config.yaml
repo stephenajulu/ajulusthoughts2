@@ -15,6 +15,7 @@ params:
   description: "A Tech and Science Oasis"
   images: "images/about.png"
   hero: "images/about.png"
+  GithubEdit: "https://github.com/owlsecco/thenoesis12/edit/master/content/"
 taxonomies:
   author: authors
   tag: tags
