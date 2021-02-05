@@ -4,6 +4,7 @@ title: "The Noesis"
 pygmentsstyle: 'monokai'
 enableEmoji: true
 paginate: 10
+
 social:
   twitter: "https://twitter.com/thenoesiske"
   github: ""
@@ -11,19 +12,23 @@ social:
   linkedin: ""
   dribbble: ""
   youtube: ""
+  
 params:
   description: "A Tech and Science Oasis"
   images: "images/about.png"
   hero: "images/about.png"
   GithubEdit: "https://github.com/owlsecco/thenoesis12/edit/master/content/"
+  
 taxonomies:
   author: authors
   tag: tags
   category: categories
+  
 markup:
   goldmark:
     renderer:
       unsafe: true
+      
 related:
   threshold: 0
   includeNewer: true
@@ -37,4 +42,15 @@ related:
     weight: 300
   - name: date
     weight: 10
+    
+outputFormats:
+  SearchIndex:
+    baseName: search
+    mediaType: application/json
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - SearchIndex
     
