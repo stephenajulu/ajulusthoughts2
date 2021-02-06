@@ -1,13 +1,5 @@
-{{ if gt (len .TableOfContents) 80}}
-
-        <aside class="lg:block tableOfContentContainer aside-container" id="tableOfContentContainer">
+        <aside class="aside-container" id="tableOfContentContainer">
             <div class="aside-align">
-            <h3>Table of contents</h3>
             {{ .TableOfContents }}
             </div>
         </aside>
-
-{{ else }}
-
-{{ end }}
-
