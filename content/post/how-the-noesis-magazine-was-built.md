@@ -2,7 +2,7 @@
 authors = ["Stephen Ajulu"]
 date = 2021-02-06T13:05:00Z
 excerpt = "Here we explain how The Noesis was built, why we made the choices we made during building and how you too can build a JAMstack website with ease"
-hero = "/static/images/banner-14.png"
+hero = "/static/images/the-noesis-youtube-cover.png"
 title = "How The Noesis Magazine Was Built Part 1"
 
 +++
