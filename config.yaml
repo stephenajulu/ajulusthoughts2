@@ -1,23 +1,23 @@
-baseURL: "https://thenoesiske.netlify.app"
+baseURL: "https://ajulusthoughts2.netlify.app"
 languageCode: "en-us"
-title: "The Noesis"
+title: "Ajulu's Thoughts"
 pygmentsstyle: 'monokai'
 enableEmoji: true
 paginate: 20
 
 social:
-  twitter: "https://twitter.com/thenoesiske"
-  github: ""
+  twitter: "https://twitter.com/stephenajulu"
+  github: "https://github.com/stephenajulu/"
   instagram: "https://instagram.com/thenoesiske"
-  linkedin: ""
-  dribbble: ""
-  youtube: ""
+  linkedin: "https://www.linkedin.com/in/stephenajulu/"
+  dribbble: "https://dribbble.com/stephenajulu"
+  youtube: "https://www.youtube.com/channel/UC043ZXL-t3yqtgcIxJmkHuA?view_as=subscriber"
   
 params:
-  description: "A Tech and Science Oasis"
+  description: "Welcome to Ajulu's Thoughts - Stephen Ajulu's Informative Blog, where we talk about tech, cybersecurity, lifestyle, finance and more."
   images: "images/about.png"
   hero: "images/about.png"
-  GithubEdit: "https://github.com/owlsecco/thenoesis12/edit/master/content/"
+  GithubEdit: "https://github.com/stephenajulu/ajulusthoughts2/edit/master/content/"
   
 taxonomies:
   author: authors
@@ -42,15 +42,3 @@ related:
     weight: 300
   - name: date
     weight: 10
-    
-outputFormats:
-  SearchIndex:
-    baseName: search
-    mediaType: application/json
-
-outputs:
-  home:
-    - HTML
-    - RSS
-    - SearchIndex
-    
