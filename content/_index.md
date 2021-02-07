@@ -1,6 +1,7 @@
 ---
 hero:
-  heading: Join Us As We Embark On a Journey To Learn More About Tech and Science
+  heading: Welcome to Ajulu's Thoughts - Stephen Ajulu's Informative Blog. Here we
+    talk about tech, cybersecurity, lifestyle, finance and more.
   maxWidthPX: "652"
 seo:
   image: "/images/about.png"
