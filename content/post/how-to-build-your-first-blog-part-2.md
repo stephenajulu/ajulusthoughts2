@@ -26,7 +26,7 @@ This guide isn't in-depth so visit the [official guide](https://wordpress.org/su
 
 Tip: Ghost is an awesome platform for bloggers.
 
-Go to the official installation guide: [Ghost Install Guide]()
+Go to the official installation guide: [Ghost Install Guide](https://ghost.org/docs/install/)
 
 ## The JAMstack Way
 
