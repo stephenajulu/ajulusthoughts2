@@ -39,4 +39,6 @@ Special Thanks to:
 
    <br>
 
+   <br>
+
    as they helped in the development of this site, e.g We are using Simple Sharing Buttons in our posts and pages to help you share an article that may be useful to someone else.
