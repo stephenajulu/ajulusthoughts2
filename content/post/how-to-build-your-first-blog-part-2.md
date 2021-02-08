@@ -29,4 +29,4 @@ This blog was built the JAMstack way, no servers, just built using hugo and rend
 To build such,
 
 1. You must first research your framework of choice, there's Hugo(the best in my opinion), Gatsby(fast page load), Gridsome(same as gatsby), Hexo, Jekyll(slow build times, excellent theme list) and Eleventy(mainly technical)
-2. Once the decision is made, i'll proceed with
+2. Once the decision is made, i'll proceed with hugo but the steps are pretty much the same.
