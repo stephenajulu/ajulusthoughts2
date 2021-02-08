@@ -1,7 +1,6 @@
 +++
 authors = ["Stephen Ajulu"]
 date = 2021-02-08T06:20:00Z
-draft = true
 excerpt = "Learn how to build your first blog with Wordpress(paid), ghost(paid) and how to build your own JAMstack Serverless version."
 hero = "/static/images/blog.jpg"
 title = "How to Build Your First Blog Part 2"
