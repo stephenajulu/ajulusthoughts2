@@ -20,7 +20,7 @@ I am a content creator, web developer, graphic designer and consultant.
 #### Get in Touch
 
 1. **🐦** [**Twitter**](https://twitter.com/stephenajulu) - If you've got a short question or message (<280 characters), please tweet [@StephenAjulu](https://twitter.com/stephenajulu) and I'll get back to you as soon as I can. I also occasionally reply to [Instagram DMs](https://instagram.com/stephenajulu) but it's much more cumbersome to do so (for now).
-2. **📨** [**Email**](mailto:hi@aliabdaal.com) - If it's a longer thing, or you don't want it to be a public tweet, please email me (hi@aliabdaal.com). I read 100% of emails but there's only enough time in the day to reply to around 30%. If you reply to my [weekly newsletter](https://email.stephenajulu.com/) with a specific question, the chances I'll reply are much higher, as I like to spend Sundays doing chill stuff like replying to emails.
+2. **📨** [**Email**](mailto:hi@aliabdaal.com) - If it's a longer thing, or you don't want it to be a public tweet, please email me (ajulu@stephenajulu.com). I read 100% of emails but there's only enough time in the day to reply to around 30%. If you reply to my [weekly newsletter](https://email.stephenajulu.com/) with a specific question, the chances I'll reply are much higher, as I like to spend Sundays doing chill stuff like replying to emails.
 
 #### Stack and Gratitude
 
