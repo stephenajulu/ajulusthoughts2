@@ -18,6 +18,9 @@ params:
   images: "images/about.png"
   hero: "images/about.png"
   GithubEdit: "https://github.com/stephenajulu/ajulusthoughts2/edit/master/content/"
+  adsense:
+    client: "ca-pub-2099668045881016"
+    inArticleSlot: "5485551778"
   
 taxonomies:
   author: authors
