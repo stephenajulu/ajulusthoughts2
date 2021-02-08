@@ -17,7 +17,7 @@ sections:
   templates:
   - post
 - type: document
-  path: content/about
+  path: content/about.md
   label: About
 - type: heading
   label: Data
