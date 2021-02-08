@@ -2,10 +2,7 @@
 title: About
 
 ---
-
 ![](/static/images/rsz_author.webp)
-
-### About Me
 
 ##### Hi there! My name is Stephen Ajulu
 
@@ -18,7 +15,7 @@ title: About
 1. 👨🏼‍⚕️ Studying I.T in Kenya.
 2. ✏ Creating content, currently writing [here](https://ajulusthoughts.stephenajulu.com), posting videos on [YouTube](https://www.youtube.com/channel/UC043ZXL-t3yqtgcIxJmkHuA?view_as=subscriber), writing newsletters(subscribe below), [podcasting](https://anchor.fm/stephenajulu) and syndicating everywhere else([Facebook](https://www.facebook.com/stephenajulu), [Medium](https://medium.com/@stephenajulu), [Linkedin](https://www.linkedin.com/in/stephenajulu/), [Twitter](https://twitter.com/stephenajulu), [Devto](https://dev.to/stephenajulu) and [Instagram](https://www.instagram.com/stephenajulu)).
 3. 💼I freelance(currently working to start my own agency).
-4.  🏛 My projects: Biomme(BioEmergency), The Bistro Ke Newsletter, SAOA inc, T.H.I.S , My own personal shop, my brand, this blog and Tech6
+4. 🏛 My projects: Biomme(BioEmergency), The Bistro Ke Newsletter, SAOA inc, T.H.I.S , My own personal shop, my brand, this blog and Tech6
 5. ✍️ On this website I write articles about [productivity](https://aliabdaal.com/tag/productivity/), [entrepreneurship](https://aliabdaal.com/entrepreneurship/) and [generic life advice](https://aliabdaal.com/tag/life/) that I've found helpful over the years, as well as sharing my [favourites apps](https://aliabdaal.com/apps/) and [tech](https://aliabdaal.com/tech/).
 
 #### Get in Touch
@@ -28,7 +25,7 @@ title: About
 
 #### Stack and Gratitude
 
-Special Thanks to: 
+Special Thanks to:
 
 1. Narative for Novela
 2. The New Dyanmic+Forestry.io(For porting the theme from Gatsby)
@@ -36,6 +33,6 @@ Special Thanks to:
 4. Formspree
 5. ConvertKit
 6. Bootsnipp Form Builder
-7. JSON Formatter from Curious Concept 
+7. JSON Formatter from Curious Concept
 
    as they helped in the development of this site, e.g We are using Simple Sharing Buttons in our posts and pages to help you share an article that may be useful to someone else.
