@@ -5,9 +5,11 @@ title: About
 
 ![](/static/images/rsz_author.webp)
 
-Hi there! My name is Stephen Ajulu.
+### About Me
 
-I am a content creator, web developer, graphic designer and consultant.
+##### Hi there! My name is Stephen Ajulu.
+
+##### I am a content creator, web developer, graphic designer and consultant.
 
 #### What I'm Working On
 
