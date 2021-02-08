@@ -31,4 +31,5 @@ fields:
   default: []
   label: Authors
 pages:
+- content/post/how-to-build-your-first-blog.md
 - content/post/how-to-buy-your-first-share.md
