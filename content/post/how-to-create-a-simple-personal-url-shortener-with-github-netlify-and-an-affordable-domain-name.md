@@ -1,15 +1,15 @@
 +++
-authors = []
+authors = ["Stephen Ajulu"]
 date = 2020-07-16T09:04:00Z
-excerpt = "Today we'll be building a simple affordable personal URL shortener using Github, Netlify and a short domain name."
+excerpt = "Today we'll be building a simple affordable personal URL shortener using Github, Netlify and a short affordable domain name."
 hero = "/images/blog-cover.webp"
 timeToRead = 3
-title = " How to Create a Simple Personal URL Shortener with GitHub, Netlify and an Affordable Domain Name"
+title = " How to Create a Simple Personal URL Shortener"
 
 +++
 Hey guys. How are you? Hope you are safe!
 
-Today I’d like to help you build an URL shortener. So let’s dive right in.
+Today I’d like to help you build an URL shortener with GitHub, Netlify and an Affordable Domain Name. So let’s dive right in.
 
  1. Create a GitHub and Netlify Account
  2. Create a new repository, name it whatever you like. Mine is links.
