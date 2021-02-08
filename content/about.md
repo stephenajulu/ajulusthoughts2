@@ -11,6 +11,8 @@ title: About
 
 ##### I am a content creator, web developer, graphic designer and consultant.
 
+##### I also build, represent, grow and sell brands at [StephenAjulu.com/Brands](https://stephenajulu.com/brands)
+
 #### What I'm Working On
 
 1. 👨🏼‍⚕️ Studying I.T in Kenya.
