@@ -30,3 +30,5 @@ fields:
   type: tag_list
   default: []
   label: Authors
+pages:
+- content/post/how-to-buy-your-first-share.md
