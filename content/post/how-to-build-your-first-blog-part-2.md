@@ -13,6 +13,15 @@ Now I'll show you the paid and slightly more technical ways to build your first 
 
 NOTE: Below are ways that require a little technical knowledge, if you don't have that, kindly go to the [first post of the series](https://ajulusthoughts.stephenajulu.com/post/how-to-build-your-first-blog/).
 
+## WordPress Org Way
+
+1. Research and find a good hosting platform with a cpanel and wordpress quick install(softaculous or similar).
+2. Buy a domain name and hosting.
+3. Go to cpanel and click Wordpress or Softaculous then Wordpress. Let it install.
+4. Once ready visit your wordpress site's admin panel and start editing or posting right away. You may be required to add ssl yourself but your host will provide you with details.
+
+This guide isn't in-depth so visit the [official guide](https://wordpress.org/support/article/how-to-install-wordpress/).
+
 ## The JAMstack Way
 
 This blog was built the JAMstack way, no servers, just built using hugo and rendered as html.
