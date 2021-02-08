@@ -1,11 +1,16 @@
-+++
-authors = ["Stephen Ajulu"]
-date = 2021-02-08T06:20:00Z
-excerpt = "Learn how to build your first blog with Wordpress(paid), ghost(paid) and how to build your own JAMstack Serverless version."
-hero = "/images/blog.jpg"
-title = "How to Build Your First Blog Part 2"
+---
+authors:
+  - Stephen Ajulu"]
+date: 2021-02-08T06:20:00Z
+excerpt: Learn how to build your first blog with Wordpress(paid), ghost(paid) and how to build your own JAMstack Serverless version.
+hero: "/images/blog.jpg"
+title: How to Build Your First Blog Part 2
+categories:
+- life
+tags:
+- blogging
 
-+++
+---
 Recap: Today I showed you [how to buy your first share](https://ajulusthoughts.stephenajulu.com/post/how-to-buy-your-first-share/) and simple free ways to [build your first blog](https://ajulusthoughts.netlify.app/post/how-to-build-your-first-blog/).
 
 Now I'll show you the paid and slightly more technical ways to build your first blog.
