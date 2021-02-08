@@ -1,11 +1,20 @@
-+++
-authors = ["Stephen Ajulu"]
-date = 2021-02-08T15:00:00Z
-excerpt = "I'll be sharing my investment journey and how you can start yours too. The journey of a million miles begin with 1 step."
-hero = "/static/images/investing-1.png"
-title = "How I Started Investing"
+---
+authors:
+  - Stephen Ajulu
+date: 2021-02-08T15:00:00Z
+excerpt: I'll be sharing my investment journey and how you can start yours too. The journey of a million miles begin with 1 step.
+hero: "/images/investing-1.png"
+title: How I Started Investing
+categories:
+  - finance
+tags:
+  - investment
+  - investing
+  - finance
+  - investing kenya
+  - getting stated
+---
 
-+++
 Hi, how are you? 
 
 My name is Stephen and welcome to "How I Started Investing".
