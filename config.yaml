@@ -20,7 +20,7 @@ params:
   GithubEdit: "https://github.com/stephenajulu/ajulusthoughts2/edit/master/content/"
   adsense:
     client: "ca-pub-2099668045881016"
-    inArticleSlot: "123455485551778"
+    inArticleSlot: "5485551778"
   
 taxonomies:
   author: authors
