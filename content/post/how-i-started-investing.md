@@ -1,7 +1,6 @@
 +++
 authors = ["Stephen Ajulu"]
 date = 2021-02-08T15:00:00Z
-draft = true
 excerpt = "I'll be sharing my investment journey and how you can start yours too. The journey of a million miles begin with 1 step."
 hero = "/static/images/investing.png"
 title = "How I Started Investing"
