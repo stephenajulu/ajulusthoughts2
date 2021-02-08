@@ -19,7 +19,6 @@ sections:
 - type: document
   path: content/about
   label: About
-  match: "**/*"
 - type: heading
   label: Data
 - type: directory
