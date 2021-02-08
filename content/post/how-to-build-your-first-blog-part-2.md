@@ -1,6 +1,6 @@
 ---
 authors:
-  - Stephen Ajulu"]
+  - Stephen Ajulu
 date: 2021-02-08T06:20:00Z
 excerpt: Learn how to build your first blog with Wordpress(paid), ghost(paid) and how to build your own JAMstack Serverless version.
 hero: "/images/blog.jpg"
