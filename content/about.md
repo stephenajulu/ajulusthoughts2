@@ -10,6 +10,8 @@ title: About
 
 ##### I also build, represent, grow and sell brands at [StephenAjulu.com/Brands](https://stephenajulu.com/brands)
 
+<br>
+
 #### What I'm Working On
 
 1. 👨🏼‍⚕️ Studying I.T in Kenya.
@@ -34,5 +36,7 @@ Special Thanks to:
 5. ConvertKit
 6. Bootsnipp Form Builder
 7. JSON Formatter from Curious Concept
+
+   <br>
 
    as they helped in the development of this site, e.g We are using Simple Sharing Buttons in our posts and pages to help you share an article that may be useful to someone else.
