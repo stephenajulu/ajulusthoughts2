@@ -1,11 +1,14 @@
-+++
-authors = ["Stephen Ajulu"]
-date = 2021-02-08T03:20:00Z
-excerpt = "Your first share is a milestone and today i am going to teach you how to go about buying it. "
-hero = "/images/buy-shares-in-kenya.jpg"
-title = "How to Buy Your First Share"
+---
+authors: 
+  - Stephen Ajulu
+date: 2021-02-08T03:20:00Z
+excerpt: Your first share is a milestone and today i am going to teach you how to go about buying it. 
+hero: "/images/buy-shares-in-kenya.jpg"
+title: How to Buy Your First Share
+categories: ['finance']
+tags: ['shares', 'trading', 'stocks']
+---
 
-+++
 Hi, how are you? It's been long huh! 
 
 Today I'd like to show you how i bought my first share and how you can too for less than ksh. 200. 
