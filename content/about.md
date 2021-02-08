@@ -2,7 +2,7 @@
 title: About
 
 ---
-![](/static/images/rsz_author.webp)
+![](/static/images/stephen-ajulu-1.jpg)
 
 ##### Hi there! My name is Stephen Ajulu
 
