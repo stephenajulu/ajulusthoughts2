@@ -22,6 +22,12 @@ NOTE: Below are ways that require a little technical knowledge, if you don't hav
 
 This guide isn't in-depth so visit the [official guide](https://wordpress.org/support/article/how-to-install-wordpress/).
 
+## Ghost Way
+
+Tip: Ghost is an awesome platform for bloggers.
+
+Go to the official installation guide: 
+
 ## The JAMstack Way
 
 This blog was built the JAMstack way, no servers, just built using hugo and rendered as html.
@@ -29,4 +35,11 @@ This blog was built the JAMstack way, no servers, just built using hugo and rend
 To build such,
 
 1. You must first research your framework of choice, there's Hugo(the best in my opinion), Gatsby(fast page load), Gridsome(same as gatsby), Hexo, Jekyll(slow build times, excellent theme list) and Eleventy(mainly technical)
-2. Once the decision is made, i'll proceed with hugo but the steps are pretty much the same.
+2. Once the decision is made, i'll proceed with hugo but the steps are pretty much the same. Find a theme. For example [hugo themes](https://themes.gohugo.io).
+3. Fork, clone and start editing(i cut out how to clone because i prefer it being in another article for now do your research, you don't even need to clone to your machine, just work from the fork.
+4. Editing should be simple, eg for Hugo, go into the config.toml or .yaml file and change the variables.
+5. You can now go to content then posts, copy the structure of example posts and start writing.
+6. Alternatively find a theme with a headless cms and start working from there
+7. Alternatively again try [StackBit](http://stackbit.com/), it's free and you can build a great blog there.
+
+That's it for today. To learn more about the JAMstack way, go check out [this](https://ajulusthoughts.stephenajulu.com/post/building-a-beautiful-progressive-jamstack-blog-part-1-day-1-to-3/), [this ](https://ajulusthoughts.stephenajulu.com/post/building-a-beautiful-progressive-jamstack-blog-part-2-day-4-to-7/)and [this]() where i show you exactly how this blog was built.
