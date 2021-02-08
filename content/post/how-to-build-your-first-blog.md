@@ -1,9 +1,8 @@
 +++
 authors = ["Stephen Ajulu"]
 date = 2021-02-08T03:52:00Z
-draft = true
 excerpt = "Learn how to build and write your first blog. "
-hero = ""
+hero = "/static/images/how-to-start-a-blog-illustration-1.jpeg"
 title = "How to Build Your First Blog"
 
 +++
