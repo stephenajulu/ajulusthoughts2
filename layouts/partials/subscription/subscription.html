@@ -1,5 +1,3 @@
-{{ $email := . }}
-{{ $action := printf "https://formspree.io/%s.tld" $email }}
 <section id="subscriptionSection" class="section narrow">
     <div class="subscription-container">
         <div class="subscription-content">
@@ -11,7 +9,7 @@
                 opt-out at anytime. We promise to not spam your inbox or share your
                 email with any third parties.
             </p>
-            <form id="subscriptionForm" class="subscription-form" action="{{ $action | safeHTMLAttr }}" method="POST">
+            <form id="subscriptionForm" class="subscription-form" action="{{ .Site.Params.formaction }}" method="POST">
                 <input
                   id="emailInput"
                   class="subscription-input"
