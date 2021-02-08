@@ -7,9 +7,9 @@ title: About
 
 ### About Me
 
-##### Hi there! My name is Stephen Ajulu.
+##### Hi there! My name is Stephen Ajulu
 
-##### I am a content creator, web developer, graphic designer and consultant.
+##### I am a content creator, web developer, graphic designer and consultant
 
 ##### I also build, represent, grow and sell brands at [StephenAjulu.com/Brands](https://stephenajulu.com/brands)
 
