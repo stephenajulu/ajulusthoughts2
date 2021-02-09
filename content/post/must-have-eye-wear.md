@@ -85,4 +85,6 @@ You could get your loved one, something for valentines. If you buy 4(men 😉 2 
 
 #### You can also check out their store for more(they have more than 20 in store! 🤩): [JadeBlack.Co](https://www.jadeblack.co/?ref=kuzqn53jomp-)
 
-#### To get 10% off, use my coupon code: STEPHENAJULU
+### To get 10% off, use my coupon code: STEPHENAJULU
+
+Have a great day everyone and to all the ladies Happy Valentines in advance 😘.
