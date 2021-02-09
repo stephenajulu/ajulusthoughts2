@@ -1,7 +1,6 @@
 +++
 authors = ["Stephen Ajulu"]
 date = 2021-02-09T04:45:00Z
-draft = true
 excerpt = "Here we take a look at the important types of eye wear to have that will not only enhance your looks but prove to be practical to have"
 hero = "/static/images/more-color_1800x.jpg"
 title = "Must Have Eye Wear"
