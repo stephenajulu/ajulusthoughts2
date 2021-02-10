@@ -1,20 +1,21 @@
 ---
 authors:
-   - Stephen Ajulu
-date: 2021-02-10T09:00:00Z
-excerpt: Learn how you can start investing and exploit compound interest. Learn to get more than 10% interest unlike the 7% that banks give you.
-hero: "/images/feature-758x426.jpg"
+- Stephen Ajulu
 title: How To Get Started Investing
+excerpt: Learn how you can start investing and exploit compound interest. Learn to
+  get more than 10% interest unlike the 7% that banks give you.
+date: 2021-02-10T09:00:00.000+00:00
+hero: "/images/feature-758x426.jpg"
 categories:
-  - finance
+- finance
 tags:
-  - investment
-  - investing
-  - finance
-  - investing kenya
-  - getting stated
----
+- investment
+- investing
+- finance
+- investing kenya
+- getting stated
 
+---
 Hey there? Today I'll show you how to get started investing.
 
 **Disclaimer: I am not a financial expert, down below is purely my opinion.**
@@ -76,7 +77,7 @@ Here is a list of some cryptocurrencies
 4. Bitcoin Cash at 56,694.36 Kenyan Shillings
 5. Monero at 16,504.40 Kenyan Shillings
 
-### 6. Forex
+### 6. Forex <sup>High Risk</sup>
 
 Basically investing/trading in other currencies eg USD.
 
