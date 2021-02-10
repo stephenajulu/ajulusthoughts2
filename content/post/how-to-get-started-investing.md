@@ -34,7 +34,7 @@ Real Estate & Land is mainly the buying, selling or renting of real estate or la
 
 Real Estate is a moderate risk high return investment, which means before attempting to invest in this. Lay aside an emergency fund as prices depreciate too. Take a look at this season we are in, it's prime season for those looking for housing or land but not so good to the sellers.
 
-I know of only 3 way of investing in land and that is through 
+I know of only 3 way of investing in land and that is through
 
 1. [Safaricom Investment Cooperative](https://sic.co.ke/)
 2. [Cytonn Real Estate](https://www.cytonn.com/real-estate)
@@ -42,7 +42,7 @@ I know of only 3 way of investing in land and that is through
 
 ### 3. Shares <sup>Moderate Risk</sup>
 
-I talk about this here: How To Buy Your First Share
+I talk about this here: [How To Buy Your First Share](https://ajulusthoughts.stephenajulu.com/post/how-to-buy-your-first-share/)
 
 ### 4. ETFs(Exchange Traded Fund) <sup>Moderate Risk</sup>
 
@@ -73,3 +73,9 @@ Here is a list of some cryptocurrencies
 Basically investing/trading in other currencies eg USD.
 
 One way to do this is to register with [FXPesa](https://lp.fxpesa.com/landing-pages/refer-a-friend/?affid=C00958714&clickid=C00958714)
+
+That's it for today I know I haven't covered all of them so I'll save the rest for another day.
+
+[Go check out my other post on how I started investing](https://ajulusthoughts.stephenajulu.com/post/how-i-started-investing/).
+
+Have a great day everyone.
