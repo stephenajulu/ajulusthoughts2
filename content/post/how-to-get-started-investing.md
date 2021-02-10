@@ -1,11 +1,20 @@
-+++
-authors = ["Stephen Ajulu"]
-date = 2021-02-10T09:00:00Z
-excerpt = "Learn how you can start investing and exploit compound interest. Learn to get more than 10% interest unlike the 7% that banks give you."
-hero = "/static/images/feature-758x426.jpg"
-title = "How To Get Started Investing"
+---
+authors:
+   - Stephen Ajulu
+date: 2021-02-10T09:00:00Z
+excerpt: Learn how you can start investing and exploit compound interest. Learn to get more than 10% interest unlike the 7% that banks give you.
+hero: "/images/feature-758x426.jpg"
+title: How To Get Started Investing
+categories:
+  - finance
+tags:
+  - investment
+  - investing
+  - finance
+  - investing kenya
+  - getting stated
+---
 
-+++
 Hey there? Today I'll show you how to get started investing.
 
 **Disclaimer: I am not a financial expert, down below is purely my opinion.**
