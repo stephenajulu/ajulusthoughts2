@@ -1,7 +1,6 @@
 +++
 authors = ["Stephen Ajulu"]
 date = 2021-02-10T09:00:00Z
-draft = true
 excerpt = "Learn how you can start investing and exploit compound interest. Learn to get more than 10% interest unlike the 7% that banks give you."
 hero = "/static/images/feature-758x426.jpg"
 title = "How To Get Started Investing"
