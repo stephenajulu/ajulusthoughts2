@@ -4,6 +4,7 @@ title: "Ajulu's Thoughts"
 pygmentsstyle: 'monokai'
 enableEmoji: true
 paginate: 10
+metaDataFormat: yaml
 
 social:
   twitter: "https://twitter.com/stephenajulu"
