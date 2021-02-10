@@ -1,11 +1,11 @@
 ---
 authors:
 - Stephen Ajulu
-title: How To Get Started Investing
+date: 2021-02-10T09:00:00.000+00:00
 excerpt: Learn how you can start investing and exploit compound interest. Learn to
   get more than 10% interest unlike the 7% that banks give you.
-date: 2021-02-10T09:00:00.000+00:00
 hero: "/images/feature-758x426.jpg"
+title: How To Get Started Investing
 categories:
 - finance
 tags:
@@ -19,6 +19,10 @@ tags:
 Hey there? Today I'll show you how to get started investing.
 
 **Disclaimer: I am not a financial expert, down below is purely my opinion.**
+
+Audio Version
+
+{{< getstartedinvestingaudio >}}
 
 ### 1. Money Market Funds <sup>Low Risk</sup>
 
