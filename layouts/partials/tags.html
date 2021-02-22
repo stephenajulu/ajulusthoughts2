@@ -1,4 +1,4 @@
-<div class="section narrow" align="center">
+<section class="narrow" align="center">
 <h5>Tagged:</h5>
   <br>
 {{ range (.GetTerms "tags") }}
@@ -6,4 +6,4 @@
     <a href="{{ .Permalink }}">{{ .Title | urlize }}</a>
   </h6>&nbsp;
   {{ end }}
-</div>
+</section>
