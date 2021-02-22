@@ -1,13 +1,10 @@
 <div class="section narrow">
 <p>Tagged: </p>
-{{ $taxonomy := "tags" }} {{ with .Param $taxonomy }}
 <ul style="display:inline;">
-  {{ range $index, $tag := . }} {{ with $.Site.GetPage (printf "/%s/%s"
-  $taxonomy $tag) -}}
+{{ range (.GetTerms "tags") }}
   <li>
-    <a href="{{ .Permalink }}">{{ $tag | urlize }}</a>
+    <a href="{{ .Permalink }}">{{ tags | urlize }}</a>
   </li>
-  {{- end -}} {{- end -}}
+  {{ end }}
 </ul>
-{{ end }}
 </div>
