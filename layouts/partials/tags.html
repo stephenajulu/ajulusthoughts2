@@ -1,8 +1,8 @@
 <div class="section narrow">
 <p>Tagged: </p>
-<ul style="display:inline;">
+<ul>
 {{ range (.GetTerms "tags") }}
-  <li>
+  <li style="display: inline;">
     <a href="{{ .Permalink }}">{{ .Title | urlize }}</a>
   </li>
   {{ end }}
