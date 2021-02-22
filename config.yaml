@@ -23,6 +23,7 @@ params:
   adsense:
     client: "ca-pub-2099668045881016"
     inArticleSlot: "5485551778"
+    BannerSlot: "8662937936"
   
 taxonomies:
   author: authors
