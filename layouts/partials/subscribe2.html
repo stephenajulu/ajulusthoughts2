@@ -1,0 +1,32 @@
+<section id="subscriptionSection" class="section narrow">
+    <div class="subscription-container">
+        <div class="subscription-content">
+            <h3 class="subscription-heading">
+                Subscribe and get notified about new content, deals and more
+            </h3>
+            <form id="subscriptionForm" class="subscription-form" action="{{ .Site.Params.formaction }}" method="POST">
+                <input
+                  id="emailInput"
+                  class="subscription-input"
+                  placeholder="your@email.com"
+                  name="email"
+                  type="email"
+                  required
+                  pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$"
+                />
+                <button id="submitButton"
+                  class="submit-button"
+                  type="submit"
+                >
+                    Subscribe
+                </button>
+                <div class="subscription-error-message">
+                    The email you entered is not valid.
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+{{ $script := resources.Get "js/addFormStyles.js" }}
+<script src="{{ $script.RelPermalink }}"></script>
