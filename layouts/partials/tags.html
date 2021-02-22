@@ -1,9 +1,11 @@
 <div class="narrow" align="center" style="width: 100%;">
 <h5>Tagged:</h5>
   <br>
+<ul>
 {{ range (.GetTerms "tags") }}
-  <h6 style="border: 1px solid #CD2653; width: auto; display: inline-block; text-align: center; margin: auto; padding: 0 5px 0; color: #CD2653; border-radius: 25px; margin-bottom: 10px;">
+  <li style="border: 1px solid #CD2653; width: auto; list-style-type: none; display: inline-block; text-align: center; margin: auto; padding: 0 5px 0; color: #CD2653; border-radius: 25px; margin-bottom: 10px;">
     <a href="{{ .Permalink }}">{{ .Title | urlize }}</a>
-  </h6>&nbsp;
+  </li>&nbsp;
 {{ end }}
+</ul>
 </div>
