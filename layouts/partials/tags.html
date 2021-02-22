@@ -3,7 +3,7 @@
 <ul style="display:inline;">
 {{ range (.GetTerms "tags") }}
   <li>
-    <a href="{{ .Permalink }}">{{ tags | urlize }}</a>
+    <a href="{{ .Permalink }}">{{ .Title | urlize }}</a>
   </li>
   {{ end }}
 </ul>
