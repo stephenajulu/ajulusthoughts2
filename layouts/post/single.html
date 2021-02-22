@@ -7,13 +7,16 @@
     {{ partial "article/progress" . }}
 
     <article  id="articleContent" class="post-content" style="position:relative;">
-        <!--{{ .Content }}-->
-        {{ replace .Content "<!--adsense-->" (partial "adsense-inarticlead.html" .) | safeHTML }}
-        {{ partial "related.html" . }}
+        {{ .Content }}
+        <!--{{ partial "related.html" . }}-->
         {{ partial "tags.html" . }}
+        <br>
         <div align="center"><h5 style="color:#CD2653;">Share On: </h5>{{partial "share.html" .}}</div>
+        <br>
         {{ partial "contribute.html" . }}
+        <br>
         {{ partial "subscribe.html" . }}
+        <br>
         {{ partial "commento.html" . }}
     </article>
     {{ partial "article/next.html" . }}
