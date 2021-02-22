@@ -53,6 +53,8 @@ I know of only 3 way of investing in land and that is through
 2. [Cytonn Real Estate](https://www.cytonn.com/real-estate)
 3. Stanlib Fahari - Stanlib Fahari I-REIT is Kenya’s first Real Estate Investment Trust (REIT) providing investors with a steady income stream and capital growth. The fund invests at least 75% of its Total Asset Value (TAV) in real estate in strategic locations in Kenya. A maximum of 25% of its TAV is invested in cash investments and cash-like instruments.
 
+<!--adsense-->
+
 ### 3. Shares <sup>Moderate Risk</sup>
 
 I talk about this here: [How To Buy Your First Share](https://ajulusthoughts.stephenajulu.com/post/how-to-buy-your-first-share/)
