@@ -44,10 +44,10 @@ related:
   toLower: false
   indices:
   - name: categories
-    weight: 500
+    weight: 100
   - name: tags
     weight: 200
   - name: keywords
-    weight: 300
+    weight: 100
   - name: date
     weight: 10
