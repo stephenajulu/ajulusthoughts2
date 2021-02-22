@@ -3,7 +3,7 @@
 <h1 class="heading">Tags</h1>
   <br>
 {{ range .Site.Taxonomies.tags }}
-  <h6 style="border: 1px solid #CD2653; width: auto; display: inline-block; text-align: center; margin: auto; padding: 0 5px 0; color: #CD2653; border-radius: 25px; margin-bottom: 10px;">
+  <h6 style="border: 1px solid #CD2653; width: auto; display: inline-block; text-align: center; margin: auto; padding: 0 5px 0; border-radius: 25px; margin-bottom: 10px;">
     <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}
   </h6>&nbsp;
   {{ end }}
