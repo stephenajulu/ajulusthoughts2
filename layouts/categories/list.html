@@ -1,11 +1,10 @@
 {{ define "main" }}
-<section class="section narrow" align="center">
-<h1 class="heading">Categories</h1>
-  <br>
-{{ range .Site.Taxonomies.categories }}
-  <h6 style="border: 1px solid #CD2653; width: auto; display: inline-block; text-align: center; margin: auto; padding: 0 5px 0; border-radius: 25px; margin-bottom: 10px;">
-    <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}
-  </h6>&nbsp;
-  {{ end }}
+<section class="section narrow">
+    <h1 align="center">Categories</h1>
+    <section>
+        {{ partial "author/articles_list.html" . }}
+    </section>
+    <div class="authors-gradient"></div>
 </section>
+
 {{ end }}
