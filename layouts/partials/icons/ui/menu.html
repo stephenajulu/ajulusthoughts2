@@ -16,7 +16,7 @@
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
   color: #818181;
   display: block;
   transition: 0.3s;
@@ -44,6 +44,15 @@
   text-color: #ffffff;
   color: #ffffff;
 }
+  
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -51,7 +60,7 @@
 }
 </style>
 
-<div id="mySidenav" class="sidenav">
+<div id="mySidenav" class="sidenav center">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="javascript:void(0)" onclick="closeNav()" class="title logo"><img src="/logo.png" width="300px"> &nbsp; Menu</a>
   <a href="/">Home</a>
