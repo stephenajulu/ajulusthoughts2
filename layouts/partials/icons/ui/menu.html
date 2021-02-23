@@ -6,7 +6,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: rgba(17, 17, 17, 0.85);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -62,12 +62,11 @@
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">{{ partial "icons/ui/menu2.html"}}</span>
 
 <script>
-/* Set the width of the side navigation to 250px */
 function openNav() {
-  document.getElementById("mySidenav").style.width = "310px";
+  document.getElementById("mySidenav").style.width = "100%";
 }
 
-/* Set the width of the side navigation to 0 */
+/* Close/hide the sidenav */
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
