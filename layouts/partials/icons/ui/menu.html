@@ -34,6 +34,16 @@
   font-size: 36px;
   margin-left: 50px;
 }
+  
+.sidenav .title {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  text-color: #ffffff;
+  color: #ffffff;
+}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -42,9 +52,8 @@
 </style>
 
 <div id="mySidenav" class="sidenav">
-  <p style="text-align:left;text-color:white;">Menu</p>
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="/#mysidenav" style="text-align:left;text-color:white;">Menu</a>
+  <a href="/#mysidenav" class="title">Menu</a>
   <a href="/">Home</a>
   <a href="/about">About</a>
   <a href="/contact">Contact</a>
