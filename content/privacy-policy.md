@@ -1,7 +1,6 @@
 ---
 title: Privacy Policy
 ---
-<h2>Privacy Policy</h2>
 <p>Your privacy is important to us. It is Ajulu&#39;s Thoughts&#39; policy to respect your privacy and comply with any applicable law and regulation regarding any personal information we may collect about you, including across our website, <a href="https://ajulusthoughts.stephenajulu.com">https://ajulusthoughts.stephenajulu.com</a>, and other sites we own and operate. </p>
 <p>This policy is effective as of 23 February 2021 and was last updated on 23 February 2021. </p>
 <h3>Information We Collect</h3>
