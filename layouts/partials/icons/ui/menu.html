@@ -113,12 +113,3 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-
-{{ $script := resources.Get "js/toggleLogos.js" }}
-<script src="{{ $script.RelPermalink }}"></script>
-
-{{ $script := resources.Get "js/toggleColors.js" }}
-<script src="{{ $script.RelPermalink }}"></script>
-
-{{ $script := resources.Get "js/copyUrl.js" }}
-<script src="{{ $script.RelPermalink }}"></script>
