@@ -6,12 +6,10 @@
   font-size: 0.8em;
   padding: 1em 2em;
   margin: 0 0 0.5em 0.5em;
-  /*position: sticky;
-  align-self: start;*/
+  position: sticky;
+  align-self: start;
 </style>
 
-{{ if and (gt .WordCount 100 ) (.Params.toc) }}
 <div class="tableofcontents">
   {{ .Page.TableOfContents | replaceRE "<ul>[[:space:]]*<li>[[:space:]]*<ul>" "<ul>" | replaceRE "</ul>[[:space:]]*</li>[[:space:]]*</ul>" "</ul>" |  safeHTML }}
 </div>
-{{ end }}
