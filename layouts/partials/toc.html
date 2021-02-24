@@ -48,12 +48,12 @@
 }
 </style>
 
-<div class="section narrow">
+
 <button class="collapsible" title="Click To Show Table of Contents">Table of Contents</button>
 <div class="content">
   {{ .Page.TableOfContents | replaceRE "<ul>[[:space:]]*<li>[[:space:]]*<ul>" "<ul>" | replaceRE "</ul>[[:space:]]*</li>[[:space:]]*</ul>" "</ul>" |  safeHTML }}
 </div>
-</div>
+
 
 <script>
 var coll = document.getElementsByClassName("collapsible");
