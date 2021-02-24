@@ -20,10 +20,6 @@ Hey there? Today I'll show you how to get started investing.
 
 **Disclaimer: I am not a financial expert, down below is purely my opinion.**
 
-Audio Version
-
-{{< getstartedinvestingaudio >}}
-
 ### 1. Money Market Funds <sup>Low Risk</sup>
 
 A money market fund mainly invests in short-term debt securities with high credit quality such as treasury bills and commercial paper. This fund is ideal for the conservative low-risk investor who leans towards stability and security for capital invested. Interest is calculated on a daily basis, and credited to the client's account net of costs.
