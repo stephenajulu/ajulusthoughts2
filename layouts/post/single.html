@@ -12,15 +12,20 @@
         
         {{ .Content }}
         
-        {{ partial "related.html" . }}
-<br>
         {{ partial "categories.html" . }}
+        
         <br>
+        
         <div align="center"><h5 style="color:#CD2653;">Share On: </h5>{{partial "share.html" .}}</div>
-        <br>
-        {{ partial "commento.html" . }}
+        
     </article>
+    
+        {{ partial "commento.html" . }}
+    
+    <br>
+    
     {{ partial "article/next.html" . }}
+    
 </section>
 
 {{ $script := resources.Get "js/progressBar.js" }}
