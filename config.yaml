@@ -38,6 +38,10 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    tableOfContents:
+      endLevel: 3
+      ordered: false
+      startLevel: 2
       
 related:
   threshold: 0
