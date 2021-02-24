@@ -1,0 +1,17 @@
+<style>
+.tableofcontents {
+  float: right;
+  width: 40%;
+  background: #eee;
+  font-size: 0.8em;
+  padding: 1em 2em;
+  margin: 0 0 0.5em 0.5em;
+  /*position: sticky;
+  align-self: start;*/
+</style>
+
+{{ if and (gt .WordCount 400 ) (.Params.toc) }}
+<aside class="tableofcontents">
+  {{ .Page.TableOfContents | replaceRE "<ul>[[:space:]]*<li>[[:space:]]*<ul>" "<ul>" | replaceRE "</ul>[[:space:]]*</li>[[:space:]]*</ul>" "</ul>" |  safeHTML }}
+</aside>
+{{ end }}
