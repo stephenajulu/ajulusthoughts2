@@ -48,7 +48,7 @@
 </style>
 
 
-<button class="collapsible" title="Click To Show Table of Contents">Table of Contents</button>
+<button class="collapsible" title="Click To Show Table of Contents" align="center">Table of Contents</button>
 <div class="content">
   {{ .Page.TableOfContents | replaceRE "<ul>[[:space:]]*<li>[[:space:]]*<ul>" "<ul>" | replaceRE "</ul>[[:space:]]*</li>[[:space:]]*</ul>" "</ul>" |  safeHTML }}
 </div>
