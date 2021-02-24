@@ -23,6 +23,7 @@ params:
   formaction: "https://app.convertkit.com/forms/2023413/subscriptions"
   twitter: "@stephenajulu"
   author: "Stephen Ajulu"
+  toc: true
   adsense:
     client: "ca-pub-2099668045881016"
     inArticleSlot: "5485551778"
