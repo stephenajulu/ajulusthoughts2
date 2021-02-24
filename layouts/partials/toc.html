@@ -24,14 +24,14 @@
 }
 
 .active:after {
-  content: "→";
+  content: "↑";
 }
 
 .content {
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
-  width: 45.4%;
+  width: 50%;
   color: #CD2653;
   font-size: 0.9em;
   transition: max-height 0.2s ease-out;
@@ -46,9 +46,11 @@
 }
 </style>
 
+<div class="section narrow">
 <button class="collapsible" title="Click To Show Table of Contents">Table of Contents</button>
 <div class="content">
   {{ .Page.TableOfContents | replaceRE "<ul>[[:space:]]*<li>[[:space:]]*<ul>" "<ul>" | replaceRE "</ul>[[:space:]]*</li>[[:space:]]*</ul>" "</ul>" |  safeHTML }}
+</div>
 </div>
 
 <script>
