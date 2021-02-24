@@ -8,6 +8,8 @@
     
     <article  id="articleContent" class="post-content" style="position:relative;">
         
+        {{ partial "toc.html" . }}
+        
         {{ .Content }}
         
         {{ partial "categories.html" . }}
