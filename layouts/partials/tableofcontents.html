@@ -4,7 +4,7 @@
   width: 20%;
   top: 2rem;
   background: #eee;
-  font-size: 0.6em;
+  font-size: 0.4em;
   padding: 1em 2em;
   margin: 0 0 0.5em 0.5em;
   position: sticky;
@@ -16,6 +16,6 @@
 </style>
 
 <div class="tableofcontents">
-  <h3>Table of Contents</h3>
+  <h4>Table of Contents</h4>
   {{ .Page.TableOfContents | replaceRE "<ul>[[:space:]]*<li>[[:space:]]*<ul>" "<ul>" | replaceRE "</ul>[[:space:]]*</li>[[:space:]]*</ul>" "</ul>" |  safeHTML }}
 </div>
