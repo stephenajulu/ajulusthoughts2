@@ -1,7 +1,7 @@
 <style>
 .tableofcontents {
   float: right;
-  width: 40%;
+  width: 30%;
   background: #eee;
   font-size: 0.8em;
   padding: 1em 2em;
@@ -11,5 +11,6 @@
 </style>
 
 <div class="tableofcontents">
+  <h2>Table of Contents</h2>
   {{ .Page.TableOfContents | replaceRE "<ul>[[:space:]]*<li>[[:space:]]*<ul>" "<ul>" | replaceRE "</ul>[[:space:]]*</li>[[:space:]]*</ul>" "</ul>" |  safeHTML }}
 </div>
