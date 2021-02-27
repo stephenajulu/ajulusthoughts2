@@ -4,7 +4,7 @@
 			<path transform="matrix(1,0,0,-1,-95,1280)" d="M 959,1524 V 1260 H 802 q -86,0 -116,-36 -30,-36 -30,-108 V 927 H 949 L 910,631 H 656 V -128 H 350 V 631 H 95 v 296 h 255 v 218 q 0,186 104,288.5 104,102.5 277,102.5 147,0 228,-12 z" />
 		</svg>
 	</a>
-	<a href="https://twitter.com/intent/tweet/?text={{ .Title }}%0D%0A{{ .Summary }}&amp;url={{ .Permalink }}&via=@stephenajulu" target="_blank" title="Tweet on Twitter" style="display:inline-block;vertical-align:middle;width:2em;height:2em;border-radius:50%;box-shadow:.1em .1em 0.5em rgba(0,0,0,.3);background:#1b95e0;">
+	<a href="https://twitter.com/intent/tweet/?text={{ .Title }}&amp;url={{ .Permalink }}&via=stephenajulu" target="_blank" title="Tweet on Twitter" style="display:inline-block;vertical-align:middle;width:2em;height:2em;border-radius:50%;box-shadow:.1em .1em 0.5em rgba(0,0,0,.3);background:#1b95e0;">
 		<svg style="display:block;fill:#fff;height:36%;margin:32% auto;" viewBox="0 -256 1576 1280">
 			<path transform="matrix(1,0,0,-1,-44,1024)" d="m 1620,1128 q -67,-98 -162,-167 1,-14 1,-42 0,-130 -38,-259.5 Q 1383,530 1305.5,411 1228,292 1121,200.5 1014,109 863,54.5 712,0 540,0 269,0 44,145 q 35,-4 78,-4 225,0 401,138 -105,2 -188,64.5 -83,62.5 -114,159.5 33,-5 61,-5 43,0 85,11 Q 255,532 181.5,620.5 108,709 108,826 v 4 q 68,-38 146,-41 -66,44 -105,115 -39,71 -39,154 0,88 44,163 Q 275,1072 448.5,982.5 622,893 820,883 q -8,38 -8,74 0,134 94.5,228.5 94.5,94.5 228.5,94.5 140,0 236,-102 109,21 205,78 -37,-115 -142,-178 93,10 186,50 z" />
 		</svg>
@@ -34,16 +34,6 @@
 			<path transform="matrix(1,0,0,-1,0,1132)" d="M 349,911 V -80 H 19 v 991 h 330 z m 21,306 q 1,-73 -50.5,-122 Q 268,1046 184,1046 h -2 q -82,0 -132,49 -50,49 -50,122 0,74 51.5,123 51.5,48 134.5,48 83,0 133,-48 50,-49 51,-123 z M 1536,488 V -80 h -329 v 530 q 0,105 -40,164.5 Q 1126,674 1040,674 977,674 934.5,639.5 892,605 871,554 860,524 860,473 V -80 H 531 q 2,399 2,647 0,248 -1,296 l -1,48 H 860 V 767 h -2 q 20,32 41,56 21,24 56.5,52 35.5,28 87.5,43.5 51,15.5 114,15.5 171,0 275,-113.5 Q 1536,707 1536,488 z" />
 		</svg>
 	</a>
-	<a href="https://www.blogger.com/blog-this.g?u={{.Permalink}}+&n={{.Title}}+&t={{ .Summary }}" target="_blank" title="Post on Blogger" style="display:inline-block;vertical-align:middle;width:2em;height:2em;border-radius:50%;box-shadow:.1em .1em 0.5em rgba(0,0,0,.3);background:#ff5722;">
-		<svg style="display:block;fill:#fff;height:44%;margin:28% auto;" viewBox="0 -64 448 448">
-			<path transform="matrix(1,0,0,-1,0,352) " d="m 447,225 q -3,14 -13,19 -3,2 -25,2 -15,1 -19.5,2 -4.5,1 -9.5,4 -7,4 -9.5,10 -2.5,6 -2.5,19 -1,50 -41,91 -29,30 -66,41 -7,2 -63,3 -52,0 -71.5,-1.5 Q 107,413 89,406 57,393 34.5,366.5 12,340 3,305 2,298 1.5,279.5 1,261 0,201 0,125 1,102.5 2,80 7,65 18,28 47.5,2.5 77,-23 111,-30 q 11,-2 106.5,-2 95.5,0 109.5,2 47,6 82,41 25,26 35,63 3,12 4,79 0,64 -1,72 z m -322,64 q 5,6 13.5,7 8.5,1 44.5,1 33,0 40,-0.5 7,-0.5 12,-2.5 14,-7 14,-21.5 0,-14.5 -13,-22.5 -3,-2 -10.5,-2.5 Q 218,247 186,247 q -45,0 -51,1 -12,4 -16,18 -4,14 5,23 l 1,0 z M 316,89 301,87 224,86 q -84,-1 -90,1.5 -6,2.5 -10.5,8 -4.5,5.5 -5.5,11.5 -1,6 1.5,12.5 2.5,6.5 6.5,10 4,3.5 10,5 6,1.5 25,1.5 l 126,0 q 19,0 24,-1.5 5,-1.5 10,-5.5 l 0,0 q 9,-9 7.5,-21.5 Q 327,95 316,89 Z" />
-		</svg>
-	</a>
-	<a href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title={{.Title}}&amp;caption={{.Description}}&amp;content={{ .Summary | truncate 170 }}%0D%0AWritten%20by%20{{.Params.authors}}&amp;canonicalUrl={{ .Permalink }}&amp;shareSource=tumblr_share_button" target="_blank" title="Post on Tumblr" style="display:inline-block;vertical-align:middle;width:2em;height:2em;border-radius:50%;box-shadow:.1em .1em 0.5em rgba(0,0,0,.3);background:#39455f;">
-		<svg style="display:block;fill:#fff;height:44%;margin:28% auto;" viewBox="0 -256 956 1664">
-			<path transform="matrix(1,0,0,-1,-68,1280)" d="m 944,207 80,-237 q -23,-35 -111,-66 -88,-31 -177,-32 -104,-2 -190.5,26 Q 459,-74 403,-28 347,18 308,78 269,138 252.5,198 236,258 236,316 V 860 H 68 v 215 q 72,26 129,70 57,43 91,90 34,46 58,102 24,55 34,99 10,43 15,88 1,5 4.5,9 3.5,3 7.5,3 H 651 V 1112 H 984 V 860 H 650 V 342 q 0,-30 6.5,-56 Q 663,260 679,233.5 695,207 728.5,192 762,177 810,178 q 78,2 134,29 z" />
-		</svg>
-	</a>
 	<a href="https://mix.com/add?url={{.Permalink}}" target="_blank" title="Add to Mix" style="display:inline-block;vertical-align:middle;width:2em;height:2em;border-radius:50%;box-shadow:.1em .1em 0.5em rgba(0,0,0,.3);background:#F3782B;">
 		<svg style="display:block;fill:#fff;height:38%;margin:31% auto;" viewBox="0 0 448 512">
 			<path d="M0 64v348.9c0 56.2 88 58.1 88 0V174.3c7.9-52.9 88-50.4 88 6.5v175.3c0 57.9 96 58 96 0V240c5.3-54.7 88-52.5 88 4.3v23.8c0 59.9 88 56.6 88 0V64H0z" />
@@ -62,11 +52,6 @@
 	<a href="https://pinterest.com/pin/create/button/?url={{.Permalink}}&amp;media={{ .Params.hero | absURL }}&amp;description={{.Description}}" target="_blank" title="Pin on Pinterest" style="display:inline-block;vertical-align:middle;width:2em;height:2em;border-radius:50%;box-shadow:.1em .1em 0.5em rgba(0,0,0,.3);background:#E60023;">
   		<svg style="display:block;fill:#fff;height:36%;margin:32% auto;" viewBox="0 0 384 512">
       			<path d="M204 6.5C101.4 6.5 0 74.9 0 185.6 0 256 39.6 296 63.6 296c9.9 0 15.6-27.6 15.6-35.4 0-9.3-23.7-29.1-23.7-67.8 0-80.4 61.2-137.4 140.4-137.4 68.1 0 118.5 38.7 118.5 109.8 0 53.1-21.3 152.7-90.3 152.7-24.9 0-46.2-18-46.2-43.8 0-37.8 26.4-74.4 26.4-113.4 0-66.2-93.9-54.2-93.9 25.8 0 16.8 2.1 35.4 9.6 50.7-13.8 59.4-42 147.9-42 209.1 0 18.9 2.7 37.5 4.5 56.4 3.4 3.8 1.7 3.4 6.9 1.5 50.4-69 48.6-82.5 71.4-172.8 12.3 23.4 44.1 36 69.3 36 106.2 0 153.9-103.5 153.9-196.8C384 71.3 298.2 6.5 204 6.5z"/>
-  		</svg>
-  	</a>
-	<a href="http://wordpress.com/press-this.php?u={{.Permalink}}&quote={{.Title}}&s={{.Summary | truncate 170 }}&i={{ .Params.hero | absURL }}" target="_blank" title="Post on WordPress" style="display:inline-block;vertical-align:middle;width:2em;height:2em;border-radius:50%;box-shadow:.1em .1em 0.5em rgba(0,0,0,.3);background:#00749c;">
-  		<svg style="display:block;fill:#fff;height:36%;margin:32% auto;" viewBox="0 0 512 512">
-      			<path d="M256 8C119.3 8 8 119.2 8 256c0 136.7 111.3 248 248 248s248-111.3 248-248C504 119.2 392.7 8 256 8zM33 256c0-32.3 6.9-63 19.3-90.7l106.4 291.4C84.3 420.5 33 344.2 33 256zm223 223c-21.9 0-43-3.2-63-9.1l66.9-194.4 68.5 187.8c.5 1.1 1 2.1 1.6 3.1-23.1 8.1-48 12.6-74 12.6zm30.7-327.5c13.4-.7 25.5-2.1 25.5-2.1 12-1.4 10.6-19.1-1.4-18.4 0 0-36.1 2.8-59.4 2.8-21.9 0-58.7-2.8-58.7-2.8-12-.7-13.4 17.7-1.4 18.4 0 0 11.4 1.4 23.4 2.1l34.7 95.2L200.6 393l-81.2-241.5c13.4-.7 25.5-2.1 25.5-2.1 12-1.4 10.6-19.1-1.4-18.4 0 0-36.1 2.8-59.4 2.8-4.2 0-9.1-.1-14.4-.3C109.6 73 178.1 33 256 33c58 0 110.9 22.2 150.6 58.5-1-.1-1.9-.2-2.9-.2-21.9 0-37.4 19.1-37.4 39.6 0 18.4 10.6 33.9 21.9 52.3 8.5 14.8 18.4 33.9 18.4 61.5 0 19.1-7.3 41.2-17 72.1l-22.2 74.3-80.7-239.6zm81.4 297.2l68.1-196.9c12.7-31.8 17-57.2 17-79.9 0-8.2-.5-15.8-1.5-22.9 17.4 31.8 27.3 68.2 27.3 107 0 82.3-44.6 154.1-110.9 192.7z"/>
   		</svg>
   	</a>
 	<a href="https://news.ycombinator.com/submitlink?u={{.Permalink}}&t={{.Title}}-{{.Site.Title}}" target="_blank" title="Submit to HackerNews" style="display:inline-block;vertical-align:middle;width:2em;height:2em;border-radius:50%;box-shadow:.1em .1em 0.5em rgba(0,0,0,.3);background:#ff4000;">
