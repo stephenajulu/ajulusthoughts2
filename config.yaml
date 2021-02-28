@@ -6,6 +6,7 @@ enableEmoji: true
 paginate: 20
 metaDataFormat: yaml
 enableGitInfo: true
+enableRobotsTXT: true
 
 social:
   twitter: "https://twitter.com/stephenajulu"
@@ -39,7 +40,7 @@ markup:
     renderer:
       unsafe: true
     tableOfContents:
-      endLevel: 3
+      endLevel: 4
       ordered: true
       startLevel: 2
       
@@ -53,6 +54,6 @@ related:
   - name: tags
     weight: 200
   - name: keywords
-    weight: 100
+    weight: 200
   - name: date
     weight: 10
