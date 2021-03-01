@@ -57,13 +57,16 @@
   <a href="/sitemap.xml" class="article-title">Sitemap</a>
   <a href="https://stephenajulu.com" class="article-title">Personal Website</a>
   <a href="https://anchor.fm/stephenajulu" class="article-title">Podcast</a>
+<br>
+<br>
+{{ partial "social-links/social-links.html" . }}
 </div>
 <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="icon-wrapper">{{ partial "icons/ui/menu3.html"}}</span>
 
 <script>
 /* Set the width of the side navigation to 250px */
 function openNav() {
-  document.getElementById("mySidenav").style.width = "270px";
+  document.getElementById("mySidenav").style.width = "100%";
 }
 
 /* Set the width of the side navigation to 0 */
