@@ -1,32 +1,9 @@
 {{ define "main" }}
-<section class="section nartrow">
-        <div class="post-row">
-          <h1 align="center">{{ .Title | humanize }}</h1>
-          <br>
-                
-                {{ range .Pages }}
-                <div class="post-row">
-                <a href="{{ .RelPermalink }}" class="article-link" id="article-link-bigger">
-                    <div>
-                        <div class="image-container">
-                            <img src="{{ .Params.hero }}" class="article-image" />
-                        </div>
-                        <div>
-                            <h2 class="article-title">
-                                {{ .Params.title }}
-                            </h2>
-                            <p class="article-excerpt">
-                                {{ .Params.excerpt }}
-                            </p>
-                            <div class="article-metadata">
-                                {{ .Date | dateFormat "January 2, 2006" }} · {{ .ReadingTime }} min read
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                
-                {{ end }}
-                
-    </div>
+<section class="section narrow">
+    <h1 align="center">{{ .Title }}</h1>
+    <section>
+        {{ partial "author/articles_list.html" . }}
+    </section>
 </section>
+
 {{ end }}
