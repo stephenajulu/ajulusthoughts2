@@ -10,13 +10,13 @@
   background-color: rgba(17, 17, 17, 0.98);
   overflow-x: hidden;
   transition: 0.5s;
-  text-align: center;
+  text-align: left;
 }
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  color: #818181;
+  color: #CD2653;
   display: block;
   transition: 0.3s;
   font-family: 'Playfair Display', serif;
@@ -42,27 +42,31 @@
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="/" class="article-title">Home</a>
-  <a href="/about" class="article-title">About</a>
-  <a href="/contact" class="article-title">Contact</a>
-  <a href="/cookie-policy" class="article-title">Cookie Policy</a>
-  <a href="/disclaimer" class="article-title">Disclaimer</a>
-  <a href="/privacy-policy" class="article-title">Privacy Policy</a>
-  <a href="/terms-and-conditions" class="article-title">Terms and Conditions</a>
-  <a href="/code-of-conduct" class="article-title">Code of Conduct</a>
-  <a href="/index.xml" class="article-title">RSS Feed</a>
-  <a href="/sitemap.xml" class="article-title">Sitemap</a>
-  <a href="https://stephenajulu.com"class="article-title" >Personal Website</a>
+  <p><strong>Menu</strong></p>
+  <br>
+  <br>
+  <a href="/">Home</a>
+  <a href="/about">About</a>
+  <a href="/contact">Contact</a>
+  <a href="/cookie-policy">Cookie Policy</a>
+  <a href="/disclaimer">Disclaimer</a>
+  <a href="/privacy-policy">Privacy Policy</a>
+  <a href="/terms-and-conditions">Terms and Conditions</a>
+  <a href="/code-of-conduct">Code of Conduct</a>
+  <a href="/index.xml">RSS Feed</a>
+  <a href="/sitemap.xml">Sitemap</a>
+  <a href="https://stephenajulu.com">Personal Website</a>
   <a href="https://anchor.fm/stephenajulu" class="article-title">Podcast</a>
 </div>
 <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="icon-wrapper">{{ partial "icons/ui/menu3.html"}}</span>
 
 <script>
+/* Set the width of the side navigation to 250px */
 function openNav() {
-  document.getElementById("mySidenav").style.width = "100%";
+  document.getElementById("mySidenav").style.width = "250px";
 }
 
-/* Close/hide the sidenav */
+/* Set the width of the side navigation to 0 */
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
