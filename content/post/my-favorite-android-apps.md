@@ -5,7 +5,7 @@ title: My Favorite Android Apps
 excerpt: We all have those apps that we love and cherish, apps we use on a daily basis.
   Here are some of mine..
 date: 2021-03-01T18:02:00+00:00
-hero: "/static/images/7xzxqziqbcyvscsmkwq63k.jpg"
+hero: "/images/7xzxqziqbcyvscsmkwq63k.jpg"
 
 ---
 Phones have become a part of our life, we cherish them and most importantly, we take them everywhere, even in toilets 😬.
