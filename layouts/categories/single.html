@@ -3,6 +3,9 @@
         <div class="post-row">
           <h1 align="center">{{ .Title | humanize }}</h1>
           <br>
+                
+                {{ range .Data.Pages }}
+                
                 <a href="{{ .RelPermalink }}" class="article-link" id="article-link-bigger">
                     <div>
                         <div class="image-container">
@@ -21,6 +24,9 @@
                         </div>
                     </div>
                 </a>
+                
+                {{ end }}
+                
     </div>
 </section>
 {{ end }}
