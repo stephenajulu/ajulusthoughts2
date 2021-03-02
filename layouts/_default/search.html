@@ -5,10 +5,11 @@
 <script src="{{ "js/search.js" | absURL }}"></script>
 {{ end }}
 {{ define "main" }}
-<section class="resume-section p-3 p-lg-5 d-flex flex-column">
-  <div class="my-auto" >
+<section class="section narrow">
+  <div class="my-auto" align="center">
     <form action="{{ "search" | absURL }}">
       <input id="search-query" name="s"/>
+      <input id="submit" value="search" type="submit"/>
     </form>
     <div id="search-results">
      <h3>Matching pages</h3>
