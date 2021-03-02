@@ -1,107 +1,52 @@
 ---
-title: Search
+title: "Search Results"
+sitemap:
+  priority : 0.1
+layout: "search"
 ---
 
-<!-- raw html -->
-<div>
-<p><input id="search" type="text" placeholder="Enter your query"></p>
 
-<ul id="results"></ul>
+This file exists solely to respond to /search URL with the related `search` layout template.
 
-<script src="/js/jquery-2.1.3.min.js"></script>
-<script src="/js/lunr.js"></script>
-<script>
-  var lunrIndex,
-      $results,
-      documents;
+No content shown here is rendered, all content is based in the template layouts/page/search.html
 
-  function initLunr() {
-    // retrieve the index file
-    $.getJSON("../index.json")
-      .done(function(index) {
-          documents = index;
+Setting a very low sitemap priority will tell search engines this is not important content.
 
-          lunrIndex = lunr(function(){
-            this.ref('href')
-            this.field('content')
+This implementation uses Fusejs, jquery and mark.js
 
-            this.field("title", {
-                boost: 10
-            });
 
-            this.field("tags", {
-                boost: 5
-            });
+## Initial setup
 
-            documents.forEach(function(doc) {
-              try {
-                // console.log(doc.href)
-                this.add(doc)
-              } catch (e) {}
-            }, this)
-          })
-      })
-      .fail(function(jqxhr, textStatus, error) {
-          var err = textStatus + ", " + error;
-          console.error("Error getting Lunr index file:", err);
-      });
-  }
+Search  depends on additional output content type of JSON in config.toml
+\```
+[outputs]
+  home = ["HTML", "JSON"]
+\```
 
-  function search(query) {
-    return lunrIndex.search(query).map(function(result) {
-      return documents.filter(function(page) {
-        try {
-          // console.log(page)
-          return page.href === result.ref;
-        } catch (e) {
-          console.log('whoops')
-        }
-      })[0];
-    });
-  }
+## Searching additional fileds
 
-  function renderResults(results) {
-    if (!results.length) {
-      return;
-    }
+To search additional fields defined in front matter, you must add it in 2 places.
 
-    results.slice(0, 30).forEach(function(result) {
-      var $result = $("<li>");
+### Edit layouts/_default/index.JSON
+This exposes the values in /index.json
+i.e. add `category`
+\```
+...
+  "contents":{{ .Content | plainify | jsonify }}
+  {{ if .Params.tags }},
+  "tags":{{ .Params.tags | jsonify }}{{end}},
+  "categories" : {{ .Params.categories | jsonify }},
+...
+\```
 
-      $result.append($("<a>", {
-        href: result.href,
-        text: result.title
-      }));
+### Edit fuse.js options to Search
+`static/js/search.js`
+\```
+keys: [
+  "title",
+  "contents",
+  "tags",
+  "categories"
+]
+\```
 
-      $result.append(" <small><time>" + result.date + "</time></small>");
-
-      $results.append($result);
-    });
-  }
-
-  function initUI() {
-    $results = $("#results");
-
-    $("#search").keyup(function(){
-      // empty previous results
-      $results.empty();
-
-      // trigger search when at least two chars provided.
-      var query = $(this).val();
-      if (query.length < 2) {
-        return;
-      }
-
-      var results = search(query);
-
-      renderResults(results);
-    });
-  }
-
-  initLunr();
-
-  $(document).ready(function(){
-    initUI();
-  });
-</script>
-</div>
