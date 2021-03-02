@@ -3,7 +3,7 @@ languageCode: "en-us"
 title: "Ajulu's Thoughts"
 pygmentsstyle: 'monokai'
 enableEmoji: true
-paginate: 6
+paginate: 10
 metaDataFormat: yaml
 enableGitInfo: true
 enableRobotsTXT: true
