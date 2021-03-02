@@ -2,6 +2,7 @@
 title: Search
 ---
 
+<!-- raw html -->
 <div>
 <p><input id="search" type="text" placeholder="Enter your query"></p>
 
