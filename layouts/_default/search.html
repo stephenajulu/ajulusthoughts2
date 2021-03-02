@@ -1,12 +1,20 @@
 {{ define "main" }}
+     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+    <script src="{{ "js/search.js" | absURL }}"></script>
+
 <section class="section narrow" align="center">
+  
+  <h1 align="center">{{ .Title }}</h1>
+  
   <div class="my-auto" >
     <form action="{{ "search" | absURL }}">
       <input id="search-query" name="s"/>
       <input value="search" id="submitButton" type="submit"/>
     </form>
     <div id="search-results">
-     <h3>Matching pages</h3>
+     <h3>Search Results</h3>
     </div>
   </div>
 </section>
