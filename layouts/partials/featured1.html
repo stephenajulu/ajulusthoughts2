@@ -16,7 +16,7 @@
                                 {{ .Params.excerpt }}
                             </p>
                             <div class="article-metadata">
-                                {{ .Date | dateFormat "January 2, 2006" }} · {{ .ReadingTime }} min read
+                                {{ .Date.Format "January 2, 2006" }} · {{ .ReadingTime }} min read
                             </div>
                         </div>
                     </div>
