@@ -14,6 +14,7 @@ tags:
 - finance
 - investing kenya
 - getting stated
+- featured
 
 ---
 Hey there? Today I'll show you how to get started investing.
