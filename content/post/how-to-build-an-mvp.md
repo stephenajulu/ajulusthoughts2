@@ -6,7 +6,7 @@ excerpt: Do you have an idea? Don't know programming? Do you want to test it? To
   i answer all these questions and help you build your minimal viable product of your
   idea and test it's performance in the actual market for FREE!
 date: 2021-03-09T07:00:00+00:00
-hero: "/static/images/mvp-mobile-app-step.jpg"
+hero: "/images/mvp-mobile-app-step.jpg"
 
 ---
 Do you have an idea? Don't know programming? Do you want to test it? Today i answer all these questions and help you build your minimal viable product of your idea and test it's performance in the actual market for FREE!
