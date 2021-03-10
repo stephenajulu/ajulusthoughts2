@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <h1 class="heading">{{ .Title }}</h1>
+<Section class="section" relative id="Articles__Hero">
+    <div class="heading-container" style="max-width: 70%;">
+      <img src="/images/1.jpg" width="300px">
+        <h3 class="hero-heading">Hi, I'm Stephen Ajulu<br> an I.T Consultant, front end web developer, graphic designer, writer, editor and content creator based in Kenya.</h3>
+      <p>I'm currently learning design(Web, UI, UX, Industrial and Graphic), illustration, photography, film making, animation, video editing, caligraphy, copywriting, web development, python, cloud computing, cybersecurity and golang</p>
+    </div>
+  <div class="articles-container" style="max-width: 70%;">
+    <p>
+    {{ range .Site.RegularPages }}
+    <a href="{{ .RelPermalink }}">{{ .Title }}<sup>{{ .Date.Format "Jan 2" }}</sup>&nbsp / &nbsp</a>
+    {{end}}
+    </p>
+  </div>
+</Section>
+
+{{ end }}
