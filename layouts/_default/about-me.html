@@ -4,15 +4,19 @@
 <Section class="section" relative id="Articles__Hero">
     <div class="heading-container">
       <img src="/images/1.jpg" width="300px">
+      <br>
         <h4>Hi, I'm Stephen Ajulu<br> an I.T Consultant, front end web developer, graphic designer, writer, editor and content creator based in Kenya.</h4>
+      <br>
       <p>I'm currently learning design(Web, UI, UX, Industrial and Graphic), illustration, photography, film making, animation, video editing, caligraphy, copywriting, web development, python, cloud computing, cybersecurity and golang</p>
     </div>
+  <br>
   <div class="articles-container">
-    <p>
+    <h4>Latest Posts</h4>
+    <h5>
     {{ range first 5 .Site.RegularPages }}
-    <a href="{{ .RelPermalink }}">{{ .Title }}<sup>{{ .Date.Format "Jan 2" }}</sup>&nbsp / &nbsp</a>
+    <a href="{{ .RelPermalink }}">{{ .Title }}<sup style="font-size:10px;">{{ .Date.Format "Jan 2" }}</sup>&nbsp / &nbsp</a>
     {{end}}
-    </p>
+    </h5>
   </div>
 </Section>
 </center>
