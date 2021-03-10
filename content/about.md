@@ -14,16 +14,15 @@ I'm currently learning design(Web, UI, UX, Industrial and Graphic), illustration
 As for official education, after my K.C.S.E, i did a Certificate in Business Information Technology, a Certification in Fundamentals of System Troubleshooting, a Diploma in Information Technology, several micro certifications in Cybersecurity, Cloud Computing and Web Development plus a Local Certification in Ethical Hacking.
 I'm still in University though studying a Bachelor of Science in Information Technology, a course i love but didn't want to do a bachelor in.
 
-Please feel free to contact me via Email → alunje73@gmail.com if you would like us to work together on something or just say Hi!
+Please feel free to contact me via Email → alunje73@gmail.com if you would like us to work together on something, advertise here, submit an article idea, guest post or just say Hi!
 
 
 
 
 #### Latest Posts
 
-{{< latestposts >}}
-
-
+{{< latestposts2 >}}
+<br>
 #### What I'm Working On
 
 1. 👨🏼‍⚕️ Studying I.T in Kenya.
@@ -48,8 +47,6 @@ Special Thanks to:
 5. ConvertKit - For my newsletter
 6. Bootsnipp Form Builder - For building forms
 7. JSON Formatter from Curious Concept - For JSON feed + Search Index formatting and validation(coming soon)
-
-   <br>
 
    <br>
 
