@@ -12,7 +12,7 @@ I also create, grow, represent and sell things e.g. brands, websites, graphic ma
 I'm currently learning design(Web, UI, UX, Industrial and Graphic), illustration, photography, film making, animation, video editing, caligraphy, copywriting, web development, python, cloud computing, cybersecurity, machine learning and golang
 
 As for official education, after my K.C.S.E, i did a Certificate in Business Information Technology, a Certification in Fundamentals of System Troubleshooting, a Diploma in Information Technology, several micro certifications in Cybersecurity, Cloud Computing and Web Development plus a Local Certification in Ethical Hacking.
-I'm still in University though studying a Bachelor of Science in Information Technology, a course i love but didn't want to do a bachelor in.
+I'm still in University though studying a Bachelor of Science in Information Technology.
 
 Please feel free to contact me via Email → alunje73@gmail.com if you would like us to work together on something, advertise here, submit an article idea, guest post or just say Hi!
 
