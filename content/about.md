@@ -16,16 +16,13 @@ As for official education, after my K.C.S.E, i did a Certificate in Business Inf
 I'm still in University though studying a Bachelor of Science in Information Technology, a course i love but didn't want to do a bachelor in.
 
 Please feel free to contact me via Email → alunje73@gmail.com if you would like us to work together on something or just say Hi!
-<br>
+
+
+
 
 #### Latest Posts
 
-<h4>Latest Posts</h4>
-<h5>
-{{ range first 10 .Site.RegularPages }}
-<a href="{{ .RelPermalink }}">{{ .Title }}<sup style="font-size:10px;">{{ .Date.Format "Jan 2" }}</sup>&nbsp / &nbsp</a>
-{{end}}
-</h5>
+{{< latestposts >}}
 
 #### What I'm Working On
 
@@ -44,7 +41,6 @@ Please feel free to contact me via Email → alunje73@gmail.com if you would lik
 #### Stack and Gratitude
 
 Special Thanks to:
-
 1. Narative for Novela
 2. The New Dyanmic + Forestry.io - For porting the theme from Gatsby to Hugo)
 3. Simple Sharing Buttons - For my share buttons
@@ -58,3 +54,6 @@ Special Thanks to:
    <br>
 
    I thank these companies and tools as they helped in the development of this site and many others.
+   
+   
+![](/images/header2.png)
