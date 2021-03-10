@@ -1,5 +1,5 @@
 <ul>
-{{ range first 10 .Site.RegularPages }}
-<li><a href="{{ .RelPermalink }}">{{ .Title }}<sup style="font-size:10px;">{{ .Date.Format "Jan 2" }}</sup></a></li>
+{{ range first 5 .Site.RegularPages }}
+<li><a href="{{ .RelPermalink }}">{{ .Title }}<sup style="font-size:13px;">{{ .Date.Format "Jan 2" }}</sup></a></li>
 {{end}}
 </ul>
