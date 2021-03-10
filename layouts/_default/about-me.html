@@ -13,7 +13,7 @@
   <div class="articles-container">
     <h4>Latest Posts</h4>
     <h5>
-    {{ range first 5 .Site.RegularPages }}
+    {{ range first 10 .Site.RegularPages }}
     <a href="{{ .RelPermalink }}">{{ .Title }}<sup style="font-size:10px;">{{ .Date.Format "Jan 2" }}</sup>&nbsp / &nbsp</a>
     {{end}}
     </h5>
