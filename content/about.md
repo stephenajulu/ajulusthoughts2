@@ -4,15 +4,28 @@ title: About
 ---
 ![](/images/stephen-ajulu-1.jpg)
 
-##### Hi! My name is Stephen Ajulu
+### Hi! My name is Stephen Ajulu
 
-##### I am a content creator, front end web developer, graphic designer and I.T consultant
+I'm a 26 year old content creator, front end web developer, graphic designer and I.T consultant based in Kenya
 
-##### I also create, grow, represent and sell brands, websites, graphic materials and more.
+I also create, grow, represent and sell things e.g. brands, websites, graphic materials, courses, pdfs and more.
 
-##### I'm currently learning design(Web, UI, UX, Industrial and Graphic), illustration, photography, film making, animation, video editing, caligraphy, copywriting, web development, python, cloud computing, cybersecurity and golang
+I'm currently learning design(Web, UI, UX, Industrial and Graphic), illustration, photography, film making, animation, video editing, caligraphy, copywriting, web development, python, cloud computing, cybersecurity, machine learning and golang
 
+As for official education, after my K.C.S.E, i did a Certificate in Business Information Technology, a Certification in Fundamentals of System Troubleshooting, a Diploma in Information Technology, several micro certifications in Cybersecurity, Cloud Computing and Web Development plus a Local Certification in Ethical Hacking.
+I'm still in University though studying a Bachelor of Science in Information Technology, a course i love but didn't want to do a bachelor in.
+
+Please feel free to contact me via Email → alunje73@gmail.com if you would like us to work together on something or just say Hi!
 <br>
+
+#### Latest Posts
+
+<h4>Latest Posts</h4>
+<h5>
+{{ range first 10 .Site.RegularPages }}
+<a href="{{ .RelPermalink }}">{{ .Title }}<sup style="font-size:10px;">{{ .Date.Format "Jan 2" }}</sup>&nbsp / &nbsp</a>
+{{end}}
+</h5>
 
 #### What I'm Working On
 
