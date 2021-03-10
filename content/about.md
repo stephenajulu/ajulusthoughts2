@@ -1,6 +1,5 @@
 ---
 title: About
-
 ---
 ![](/images/stephen-ajulu-1.jpg)
 
@@ -23,6 +22,7 @@ Please feel free to contact me via Email → alunje73@gmail.com if you would lik
 #### Latest Posts
 
 {{< latestposts >}}
+
 
 #### What I'm Working On
 
