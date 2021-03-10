@@ -1,0 +1,5 @@
+<h5>
+{{ range first 10 .Site.RegularPages }}
+<a href="{{ .RelPermalink }}">{{ .Title }}<sup style="font-size:10px;">{{ .Date.Format "Jan 2" }}</sup>&nbsp / &nbsp</a>
+{{end}}
+</h5>
