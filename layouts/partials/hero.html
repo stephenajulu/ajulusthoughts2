@@ -1,1 +1,22 @@
-<div class="section narrow" align="center" style="text-align: center; margin-left: auto; margin-right: auto; float: center;">{{ partial "bio.html" . }}</div>
+<div class="section narrow" align="center" style="text-align: center; margin-left: auto; margin-right: auto; float: center;">
+    <div class="bio-container">
+        {{ range site.Taxonomies.authors }}
+            {{ with .Page }}
+                {{ if .Params.featured }}
+                    <a href="{{ .RelPermalink }}" class="bio-link">
+                        {{ with .Params.avatar }}
+                            <div class="bio-avatar">
+                                <div class="bio-avatar-inner">
+                                    <img class="author-avatar" src="{{ . }}" width="500px"/>
+                                </div>
+                            </div>
+                        {{ end }}
+                        {{ with .Params.bio }}
+                            <p class="bio-text">{{ . }}</p>
+                        {{ end }}
+                    </a>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+  </div>
+</div>
