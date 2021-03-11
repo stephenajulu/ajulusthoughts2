@@ -28,7 +28,9 @@ Please feel free to contact me via Email → alunje73@gmail.com if you would lik
 2. ✏ Creating content, currently writing [here on Ajulu's Thoughts](https://ajulusthoughts.stephenajulu.com), posting videos on [My YouTube Channel](https://www.youtube.com/channel/UC043ZXL-t3yqtgcIxJmkHuA?view_as=subscriber), writing newsletters(subscribe below), [podcasting on anchor fm](https://anchor.fm/stephenajulu) and syndicating everywhere else on my ([Facebook](https://www.facebook.com/stephenajulu), [Medium](https://stephenajulu.medium.com/), [Linkedin](https://www.linkedin.com/in/stephenajulu/), [Twitter](https://twitter.com/stephenajulu), [Devto](https://dev.to/stephenajulu) and [Instagram](https://www.instagram.com/stephenajulu)) pages.
 3. 💼I freelance(currently working to start my own agency).
 4. 🏛 My projects: Biomme(BioEmergency), The Bistro Ke Newsletter, SAOA inc, T.H.I.S , My own personal shop/merch, my brand, this blog and Tech6
-5. ✍️ On this website I write articles about tech, cybersecurity, web dev, science, engineering, personal finance, personal branding, self development, life and more.
+5. ✍️ On [this website](https://ajulusthoughts.stephenajulu.com) I write articles about tech, cybersecurity, web dev, science, engineering, personal finance, personal branding, self development, life and more.
+6. ⏺ On [YouTube](https://www.youtube.com/channel/UC043ZXL-t3yqtgcIxJmkHuA?view_as=subscriber) i upload videos covering tech and life
+7. 🎴 On social media 
 
 #### Get in Touch
 
