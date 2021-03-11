@@ -16,6 +16,8 @@ I'm still in University though studying a Bachelor of Science in Information Tec
 
 Please feel free to contact me via Email → alunje73@gmail.com if you would like us to work together on something, advertise here, submit an article idea, guest post or just say Hi!
 
+{{< subscribe3 >}}
+
 #### Latest Posts
 
 {{< latestposts2 >}}
