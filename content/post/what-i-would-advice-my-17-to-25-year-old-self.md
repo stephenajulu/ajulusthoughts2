@@ -4,7 +4,7 @@ authors:
 title: Advice to my 17 Year Old Self and Others
 excerpt: 26 and indifferent!
 date: 2021-03-14T14:36:00+00:00
-hero: "/static/images/unnamed.png"
+hero: "/images/unnamed.png"
 
 ---
 Hi, there?
