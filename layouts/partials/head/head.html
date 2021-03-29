@@ -13,16 +13,13 @@
     {{ with .Params.forestry_instant_preview_id }}
       {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
     {{ end -}}
-    <script src="https://progressier.com/client/script.js?id=AfYAh1spjpA8mhK8yvL7"></script>
     {{ "<!-- PWAUpdate Script -->" | safeHTML }}
-    <!--
   <script type="module">
    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
    const el = document.createElement('pwa-update');
    document.body.appendChild(el);
 </script>
 {{ partial "metaicons.html" . }}
-    -->
 <link rel="alternate" type="application/rss+xml" href="/index.xml" title="{{ .Site.Title }}">
 <!--<link rel="icon" href="/images/favicon.png">-->
 </head>
