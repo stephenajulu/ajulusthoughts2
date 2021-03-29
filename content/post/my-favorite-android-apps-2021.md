@@ -5,7 +5,7 @@ title: My Favorite Android Apps 2021
 excerpt: Hi there, here are my favorite android apps of 2021 that I use on a regular
   basis
 date: 2021-03-29T14:30:00+00:00
-hero: "/static/images/androidpit-best-free-android-apps-hero-2.jpg"
+hero: "/images/androidpit-best-free-android-apps-hero-2.jpg"
 
 ---
 Hi there, this is Stephen Ajulu and today i'd like to share with you my favorite apps of 2021. Let's begin.
