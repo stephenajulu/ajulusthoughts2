@@ -15,7 +15,7 @@ Hope you are taking care of yourself.
 
 Today, I'd like to take the opportunity to introduce a weekly series where i post web tools that could help you do amazing things and today's tool is no different.
 
-I'll be posting 1 tool weekly that has helped me and that i believe can help you. All the tools don't require foreknowledge or experience with them and I'll do my best to explain what you can do with them and why you should use them especially now when people are working remotely.
+I'll be posting 1 tool(with an alternative) weekly that has helped me and that i believe can help you. All the tools don't require foreknowledge or experience with them and I'll do my best to explain what you can do with them and why you should use them especially now when people are working remotely.
 
 So without further ado, i introduce:
 
@@ -45,5 +45,11 @@ The photo below is a sample i made, i used Lunapic's transparency tool then crop
 
 1. The UI is dated or should i say it's retro
 2. The transparency tool(and others) require saving before making another area transparent eg if you have a "complex" picture with many different colors , you'll need to tap each color at a time and after each tap you'll need to save. The benefit of this is that it prevents ruining the picture the con is it takes quite a while if you have a "complex" picture.
+
+#### Alternative? Pixlr
+
+Pixlr is an online photo editing app, just like LunaPic. They share a similar audience. Indeed, LunaPic got a boost in users when Pixlr discontinued their desktop app in 2017.
+
+Now Pixlr has two apps. One is called Pixlr X and it’s targeted at beginners and casual users (the LunaPic crowd). Pixlr E is intended for intermediate users and “pros.”
 
 And that's it for today, cheers🥂 ✌️and stay safe.
