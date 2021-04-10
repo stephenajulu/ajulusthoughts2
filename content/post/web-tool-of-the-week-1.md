@@ -46,4 +46,4 @@ The photo below is a sample i made, i used Lunapic's transparency tool then crop
 1. The UI is dated or should i say it's retro
 2. The transparency tool(and others) require saving before making another area transparent eg if you have a "complex" picture with many different colors , you'll need to tap each color at a time and after each tap you'll need to save. The benefit of this is that it prevents ruining the picture the con is it takes quite a while if you have a "complex" picture. 
 
-And that's it for today guys
+And that's it for today, cheers🥂 ✌️and stay safe. 
