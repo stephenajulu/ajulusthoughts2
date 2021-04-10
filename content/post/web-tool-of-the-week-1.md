@@ -20,3 +20,30 @@ I'll be posting 1 tool weekly that has helped me and that i believe can help you
 So without further ado, i introduce:
 
 ## Lunapic
+
+Lunapic is a free online photo editor. 
+
+It allows users to upload pictures, edit them, and share them.
+
+### **Why should I use Lunapic?** 
+
+It has an amazing transparency tool! 
+
+If you have ever asked someone to make you a logo and they failed to give you one with a transparent background then you know the stress of finding ways to make the background transparent and let's face it, not everyone can afford Adobe Photoshop and Illustrator, and Gimp and the likes have quite a large learning curve. This tool comes in handy when all you want is to make an image's background transparent and it works with any images, except svgs. You can remove the background of portrait images as well. To top this off it has other amazing features. 
+
+The photo below is a sample i made, i used Lunapic's transparency tool then cropped it using a circle crop. 
+
+![](/static/images/me3.png)
+
+#### Pros
+
+1. It has so many useful tools
+2. It's transparency tool is partly automatic, meaning it's not an eraser rather all you do is tap an area. 
+3. The site is fast
+
+#### Cons
+
+1. The UI is dated or should i say it's retro
+2. The transparency tool(and others) require saving before making another area transparent eg if you have a "complex" picture with many different colors , you'll need to tap each color at a time and after each tap you'll need to save. The benefit of this is that it prevents ruining the picture the con is it takes quite a while if you have a "complex" picture. 
+
+And that's it for today guys
