@@ -5,8 +5,8 @@ title: 'Web Tool of The Week #1'
 excerpt: Starting a weekly series where i post web tools(websites) that can help you
   do a wide variety of things from compressing images to making them transparent to
   helping you build a blog. This week's tool is Lunapic.
-date: 2021-04-10T08:00:00+00:00
-hero: "/images/adobe_post_20210410_1059260-04849642180601832.png"
+date: 2021-04-10T08:00:00.000+00:00
+hero: "/static/images/untitled.png"
 
 ---
 Hi, how are you?
