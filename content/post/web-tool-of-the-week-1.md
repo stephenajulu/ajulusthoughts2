@@ -9,41 +9,41 @@ hero: "/static/images/adobe_post_20210410_1059260-04849642180601832.png"
 draft: true
 
 ---
-Hi, how are you? 
+Hi, how are you?
 
-Hope you are taking care of yourself. 
+Hope you are taking care of yourself.
 
-Today, I'd like to take the opportunity to introduce a weekly series where i post web tools that could help you do amazing things and today's tool is no different. 
+Today, I'd like to take the opportunity to introduce a weekly series where i post web tools that could help you do amazing things and today's tool is no different.
 
 I'll be posting 1 tool weekly that has helped me and that i believe can help you. All the tools don't require foreknowledge or experience with them and I'll do my best to explain what you can do with them and why you should use them especially now when people are working remotely.
 
 So without further ado, i introduce:
 
-## Lunapic
+## [**Lunapic**](https://www5.lunapic.com/editor/)
 
-Lunapic is a free online photo editor. 
+Lunapic is a free online photo editor.
 
 It allows users to upload pictures, edit them, and share them.
 
-### **Why should I use Lunapic?** 
+### **Why should I use Lunapic?**
 
-It has an amazing transparency tool! 
+It has an amazing transparency tool!
 
-If you have ever asked someone to make you a logo and they failed to give you one with a transparent background then you know the stress of finding ways to make the background transparent and let's face it, not everyone can afford Adobe Photoshop and Illustrator, and Gimp and the likes have quite a large learning curve. This tool comes in handy when all you want is to make an image's background transparent and it works with any images, except svgs. You can remove the background of portrait images as well. To top this off it has other amazing features. 
+If you have ever asked someone to make you a logo and they failed to give you one with a transparent background then you know the stress of finding ways to make the background transparent and let's face it, not everyone can afford Adobe Photoshop and Illustrator, and Gimp and the likes have quite a large learning curve. This tool comes in handy when all you want is to make an image's background transparent and it works with any images, except svgs. You can remove the background of portrait images as well. To top this off it has other amazing features.
 
-The photo below is a sample i made, i used Lunapic's transparency tool then cropped it using a circle crop. 
+The photo below is a sample i made, i used Lunapic's transparency tool then cropped it using a circle crop.
 
 ![](/static/images/me3.png)
 
 #### Pros
 
 1. It has so many useful tools
-2. It's transparency tool is partly automatic, meaning it's not an eraser rather all you do is tap an area. 
+2. It's transparency tool is partly automatic, meaning it's not an eraser rather all you do is tap an area.
 3. The site is fast
 
 #### Cons
 
 1. The UI is dated or should i say it's retro
-2. The transparency tool(and others) require saving before making another area transparent eg if you have a "complex" picture with many different colors , you'll need to tap each color at a time and after each tap you'll need to save. The benefit of this is that it prevents ruining the picture the con is it takes quite a while if you have a "complex" picture. 
+2. The transparency tool(and others) require saving before making another area transparent eg if you have a "complex" picture with many different colors , you'll need to tap each color at a time and after each tap you'll need to save. The benefit of this is that it prevents ruining the picture the con is it takes quite a while if you have a "complex" picture.
 
-And that's it for today, cheers🥂 ✌️and stay safe. 
+And that's it for today, cheers🥂 ✌️and stay safe.
