@@ -4,7 +4,7 @@ authors:
 title: 'App of The Week #1'
 excerpt: Here's the app of the week
 date: 2021-04-10T11:30:00+00:00
-hero: "/static/images/app-of-the-week-1.png"
+hero: "/images/app-of-the-week-1.png"
 
 ---
 Hi! Starting another series on "Android App of The Week". Here's this week's app.
