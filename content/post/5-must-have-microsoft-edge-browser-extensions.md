@@ -4,7 +4,7 @@ authors:
 title: 5 Must Have Microsoft Edge Browser Extensions
 excerpt: Here are 5 must have Edge Browser Extensions + a bonus
 date: 2021-04-10T19:10:00+00:00
-hero: "/static/images/re4ncja.jpeg"
+hero: "/images/re4ncja.jpeg"
 
 ---
 Microsoft recently(January 15, 2020) unveiled The Edge Browser based on Chromium(Chrome without Google). It took the internet by storm and Today, I'd like to talk about the extensions I believe are a must-have in Edge.
