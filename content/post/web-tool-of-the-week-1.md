@@ -1,7 +1,7 @@
 ---
 authors:
 - Stephen Ajulu
-title: 'Web Tool of The Week #1 Lunapic'
+title: 'Web Tool of The Week #1'
 excerpt: Starting a weekly series where i post web tools(websites) that can help you
   do a wide variety of things from compressing images to making them transparent to
   helping you build a blog. This week's tool is Lunapic
