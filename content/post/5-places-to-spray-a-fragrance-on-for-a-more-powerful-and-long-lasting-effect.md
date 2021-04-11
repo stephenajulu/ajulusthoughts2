@@ -5,7 +5,7 @@ title: 5 Places To Spray A Fragrance On For A More Powerful and Long Lasting Eff
 excerpt: Here I'll tell you 6 places to spray or apply a fragrance eg Perfume and
   why you  should spray them in these locations
 date: 2021-04-11T10:05:00+00:00
-hero: "/static/images/how-to-apply-cologne-2.png"
+hero: "/images/how-to-apply-cologne-2.png"
 
 ---
 Hi! Today I'll teach you hidden body fragrance techniques for a lasting and more powerful effect.
@@ -38,7 +38,7 @@ You see just like the armpits the inside of your elbows pack some heat, spraying
 
 There's a hidden technique known as "**Layering**", packing a hair spray makes sure 1 Your hair won't smell and 2 there will be a scented bubble all around you.
 
-I recommend you use either 3 of these techniques. Use all 7 if the scent is mild and not obnoxious. Stop wasting perfume by spraying the air then moving to the sprayed area. Do not overapply otherwise you'll come off as obnoxious. Don't use more than 1 perfume for the body unless you know what you are doing. Stop spraying on clothes otherwise, each perfume you use will compound and confuse. 
+I recommend using a maximum of any 3 of these techniques. Stop wasting perfume by spraying the air then moving to the sprayed area. Do not overapply otherwise you'll come off as obnoxious. Don't use more than 1 perfume for the body unless you know what you are doing. Stop spraying on clothes otherwise, each perfume you use will compound and confuse. 
 
 I also recommend you try Santa Lucia Fragrance. The best fragrance ever made in France. "Come Closer - To Conquering - Everyday" by buying their full set of 3 using my 10% off coupon code. In addition to saving 10%, if you buy the full set of 3, you save sh. 15,000 or 150 USD. Here's my coupon code: STEPHENAJULU and for a link with the coupon code already applied: [https://santaluciafragrance.com/collections/all/products/set-of-3?ref=kuzqn53jomp-](https://santaluciafragrance.com/collections/all/products/set-of-3?ref=kuzqn53jomp- "https://santaluciafragrance.com/collections/all/products/set-of-3?ref=kuzqn53jomp-")
 
