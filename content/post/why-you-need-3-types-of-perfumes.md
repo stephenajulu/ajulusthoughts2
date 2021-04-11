@@ -79,3 +79,5 @@ Follow these guides
 ![](/static/images/areas-to-apply-fragrance-unconventional-areas.png)
 
 ![](/static/images/waystoapplyperfumes.png)
+
+![](/static/images/how-to-apply-cologne-2.png)
