@@ -21,3 +21,5 @@ Hi everyone, so today, I'd like to talk about Crypto. In this post, I'll cover 5
 Go check them out, especially with Dogecoin. Implement the HODL technique. This drop and rise so don't be afraid and only invest money you don't mind losing.
 
 To buy these I suggest you try Binance using this link, you'll get **5%:** [**Binance**](https://accounts.binance.com/en/register?ref=CL2JFAB6)
+
+See you next time. Stay safe!
