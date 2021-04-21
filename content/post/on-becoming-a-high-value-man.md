@@ -4,7 +4,7 @@ authors:
 title: On Becoming a High Value Man
 excerpt: Today I'll explain the steps to becoming a high value man
 date: 2021-04-21T09:41:00+00:00
-hero: "/static/images/maxresdefault.jpg"
+hero: "/images/maxresdefault.jpg"
 
 ---
 Hi guys! How are you? Today I'd like to help you(and i) start our journey to being high-value men. These are not my insights rather the insights of great men and women. 
